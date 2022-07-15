@@ -3,7 +3,7 @@ import { getPostData } from '../lib/chapters'
 import Layout from '../layouts/main'
 import { Chapters, PostData } from '../types'
 
-function Blog({
+function Fictions({
   chapters,
   postData
 }: {
@@ -18,7 +18,7 @@ function Blog({
   )
 }
 
-export default Blog
+export default Fictions
 
 export async function getStaticProps() {
   const chapters = getSortedPostsData('chapters')
