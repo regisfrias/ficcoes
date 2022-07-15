@@ -2,17 +2,14 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import Layout from '../layouts/main'
 import { getSortedPostsData } from '../lib/chapters'
 import { getAllPostIds, getPostData } from '../lib/chapters'
-import { Chapters } from '../types'
+import { Chapters, PostData } from '../types'
 
 export default function Post({
   chapters,
   postData
 }: {
   chapters: Chapters,
-  postData: {
-    title: string
-    contentHtml: string
-  }
+  postData: PostData
 }) {
   return (
     <Layout chapters={chapters}>

@@ -1,18 +1,14 @@
 import { getSortedPostsData } from '../lib/chapters'
 import { getPostData } from '../lib/chapters'
 import Layout from '../layouts/main'
+import { Chapters, PostData } from '../types'
 
 function Blog({
   chapters,
   postData
 }: {
-  chapters: [{
-    id: string, title: string, date: string
-  }],
-  postData: {
-    title: string
-    contentHtml: string
-  }
+  chapters: Chapters,
+  postData: PostData
 }) {
   return (
     <Layout chapters={chapters}>

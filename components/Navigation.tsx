@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import { Chapters } from '../types'
 
-export default function Navigation({chapters}: {chapters?: [{id: string, title: string, date: string}]}) {
+export default function Navigation({chapters}: {chapters: Chapters}) {
   return (
     <div>
       <li><Link href='/'><a>Ficções</a></Link></li>
