@@ -64,13 +64,8 @@ const Button = styled.button`
 `
 
 export default function Navigation({chapters}: {chapters: Chapters}) {
-
   const [ isOpen, open ] = useState(false)
-
-  const toggleChapters = () => {
-    open(!isOpen)
-  }
-
+  const toggleChapters = () => open(!isOpen)
   const router = useRouter()
   const path = router.query.id
 
@@ -78,9 +73,9 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
     <Nav className={isOpen ? 'open': ''}>
       <section>
         <ul>
-          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a>Ficções</a></Link></li>
+          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Ficções</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-            <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a>{chapter.title}</a></Link></li>
+            <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
             ) : null}
         </ul>
       </section>
