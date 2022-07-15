@@ -4,17 +4,17 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-const postsDirectory = path.join(process.cwd(), 'chapters')
+const postsDirectory = (dir: string) => path.join(process.cwd(), dir)
 
-export function getSortedPostsData() {
+export function getSortedPostsData(dir: string) {
   // Get file names under /chapters
-  const fileNames = fs.readdirSync(postsDirectory)
+  const fileNames = fs.readdirSync(postsDirectory(dir))
   const allPostsData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '')
 
     // Read markdown file as string
-    const fullPath = path.join(postsDirectory, fileName)
+    const fullPath = path.join(postsDirectory(dir), fileName)
     const fileContents = fs.readFileSync(fullPath, 'utf8')
 
     // Use gray-matter to parse the post metadata section
@@ -36,8 +36,8 @@ export function getSortedPostsData() {
   })
 }
 
-export function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory)
+export function getAllPostIds(dir: string) {
+  const fileNames = fs.readdirSync(postsDirectory(dir))
   return fileNames.map(fileName => {
     return {
       params: {
@@ -53,8 +53,8 @@ function getReadingTime(text: string) {
   return Math.ceil(words / wpm);
 }
 
-export async function getPostData(id: string) {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
+export async function getPostData(id: string, dir: string) {
+  const fullPath = path.join(postsDirectory(dir), `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const readingTime = getReadingTime(fileContents)
 
@@ -64,8 +64,8 @@ export async function getPostData(id: string) {
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
-    .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+    .process(matterResult.content)
+  const contentHtml = processedContent.toString()
 
   // Combine the data with the id and contentHtml
   return {
