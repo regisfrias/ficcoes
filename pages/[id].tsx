@@ -1,20 +1,25 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
+import Layout from '../layouts/main'
+import { getSortedPostsData } from '../lib/chapters'
 import { getAllPostIds, getPostData } from '../lib/chapters'
+import { Chapters } from '../types'
 
 export default function Post({
+  chapters,
   postData
 }: {
+  chapters: Chapters,
   postData: {
     title: string
     contentHtml: string
   }
 }) {
   return (
-    <div>
+    <Layout chapters={chapters}>
       <h1>{postData.title}</h1>
 
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    </div>
+    </Layout>
   )
 }
 
@@ -28,10 +33,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params) {
+    const chapters = getSortedPostsData('chapters')
     const postData = await getPostData(params.id as string, 'chapters')
     return {
       props: {
-        postData
+        postData,
+        chapters
       }
     }
   }

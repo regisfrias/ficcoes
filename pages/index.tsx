@@ -1,7 +1,6 @@
-import { GetStaticProps, GetStaticPaths } from 'next'
 import { getSortedPostsData } from '../lib/chapters'
-import { getAllPostIds, getPostData } from '../lib/chapters'
-import Navigation from '../components/Navigation'
+import { getPostData } from '../lib/chapters'
+import Layout from '../layouts/main'
 
 function Blog({
   chapters,
@@ -16,12 +15,10 @@ function Blog({
   }
 }) {
   return (
-    <div>
-      <Navigation chapters={chapters} />
-
+    <Layout chapters={chapters}>
       <h1>{postData.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-    </div>
+    </Layout>
   )
 }
 
