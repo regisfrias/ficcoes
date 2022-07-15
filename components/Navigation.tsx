@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
@@ -61,13 +61,39 @@ const Button = styled.button`
   height: 40px;
   cursor: pointer;
   background-color: transparent;
+  &[disabled] {
+    opacity: 0;
+    cursor: default;
+  }
 `
 
 export default function Navigation({chapters}: {chapters: Chapters}) {
-  const [ isOpen, open ] = useState(false)
-  const toggleChapters = () => open(!isOpen)
   const router = useRouter()
   const path = router.query.id
+  const [ isOpen, open ] = useState(false)
+  const toggleChapters = () => open(!isOpen)
+  const [ prevNext, setPrevNext ] = useState<{prev: string | null, next: string | null}>({prev: '', next: ''})
+
+  const linkTo = (route: string | null) => {
+    if (route) {
+      router.push(route)
+    }
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      if (path === undefined) {
+        setPrevNext({prev: null, next: chapters[0].id})
+      } else {
+        const currentKey = chapters.reduce((prev, curr, i) => curr.id === path ? i : prev, 0)
+        const prevObj = currentKey > 0 ? chapters[currentKey - 1] : null
+        const nextObj = currentKey < chapters.length ? chapters[currentKey + 1] : null
+        const prev = prevObj && prevObj.id ? prevObj.id : '/'
+        const next = nextObj && nextObj.id ? nextObj.id : null
+        setPrevNext({prev, next})
+      }
+    }
+  }, [path, chapters])
 
   return (
     <Nav className={isOpen ? 'open': ''}>
@@ -80,7 +106,9 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
         </ul>
       </section>
       <nav>
+        <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'<'}</Button>
         <Button onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
+        <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'>'}</Button>
       </nav>
     </Nav>
   )
