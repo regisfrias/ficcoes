@@ -12,6 +12,7 @@ const Nav = styled.div`
   bottom: 0;
   top: calc(100% - ${DIMENSIONS.buttonSize}px);
   transition: top ${SPEEDS.fast}s;
+  overflow: hidden;
   &.open {
     top: 0;
   }
@@ -37,6 +38,8 @@ const Nav = styled.div`
 
     ul {
       color: ${COLORS.sepia};
+      padding: 0;
+      margin: 0;
       li {
         a {
           color: ${COLORS.sepia};
