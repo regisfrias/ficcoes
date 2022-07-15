@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
 import { COLORS, DIMENSIONS, SPEEDS } from '../constants'
@@ -62,7 +63,7 @@ const Button = styled.button`
   background-color: transparent;
 `
 
-export default function Navigation({chapters, current}: {chapters: Chapters, current: string}) {
+export default function Navigation({chapters}: {chapters: Chapters}) {
 
   const [ isOpen, open ] = useState(false)
 
@@ -70,13 +71,16 @@ export default function Navigation({chapters, current}: {chapters: Chapters, cur
     open(!isOpen)
   }
 
+  const router = useRouter()
+  const path = router.query.id
+
   return (
     <Nav className={isOpen ? 'open': ''}>
       <section>
         <ul>
-          <li className={`ficcoes ${current === 'index' ? 'current' : ''}`}><Link href='/'><a>Ficções</a></Link></li>
+          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a>Ficções</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-            <li key={chapter.id} className={`${chapter.id} ${current === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a>{chapter.title}</a></Link></li>
+            <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a>{chapter.title}</a></Link></li>
             ) : null}
         </ul>
       </section>
