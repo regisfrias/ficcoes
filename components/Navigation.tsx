@@ -32,7 +32,25 @@ const Nav = styled.div`
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+
+    ul {
+      color: ${COLORS.sepia};
+      li {
+        a {
+          color: ${COLORS.sepia};
+          &:hover {
+            color: ${COLORS.black};
+          }
+        }
+        &.current {
+          color: ${COLORS.black};
+          a {
+            color: ${COLORS.black};
+          }
+        }
+      }
+    }
   }
 `
 
@@ -44,7 +62,7 @@ const Button = styled.button`
   background-color: transparent;
 `
 
-export default function Navigation({chapters}: {chapters: Chapters}) {
+export default function Navigation({chapters, current}: {chapters: Chapters, current: string}) {
 
   const [ isOpen, open ] = useState(false)
 
@@ -56,9 +74,9 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
     <Nav className={isOpen ? 'open': ''}>
       <section>
         <ul>
-          <li><Link href='/'><a>Ficções</a></Link></li>
+          <li className={`ficcoes ${current === 'index' ? 'current' : ''}`}><Link href='/'><a>Ficções</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-            <li key={chapter.id}><Link href={`/${chapter.id}`}><a>{chapter.title}</a></Link></li>
+            <li key={chapter.id} className={`${chapter.id} ${current === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a>{chapter.title}</a></Link></li>
             ) : null}
         </ul>
       </section>

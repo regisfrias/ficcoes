@@ -11,7 +11,9 @@ export const BREAKPOINTS = {
 }
 
 export const COLORS = {
-  white: '#faf2f0'
+  white: '#faf2f0',
+  sepia: '#72605c',
+  black: '#000000',
 }
 
 export const SPEEDS = {

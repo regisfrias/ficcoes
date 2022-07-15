@@ -12,9 +12,8 @@ export default function Post({
   postData: PostData
 }) {
   return (
-    <Layout chapters={chapters}>
+    <Layout chapters={chapters} current={postData.id}>
       <h1>{postData.title}</h1>
-
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )

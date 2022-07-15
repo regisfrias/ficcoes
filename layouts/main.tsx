@@ -15,13 +15,15 @@ const Wrapper = styled.div`
 export default function Layout({
   children,
   chapters,
+  current,
 }: {
   children: ReactNode,
   chapters: Chapters,
+  current: string,
 }) {
   return(
     <Wrapper>
-      <Navigation chapters={chapters} />
+      <Navigation chapters={chapters} current={current} />
 
       {children}
     </Wrapper>

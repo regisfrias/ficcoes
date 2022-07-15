@@ -11,7 +11,7 @@ function Fictions({
   postData: PostData
 }) {
   return (
-    <Layout chapters={chapters}>
+    <Layout chapters={chapters} current='index'>
       <h1>{postData.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
