@@ -25,7 +25,7 @@ Mas crítica literária está fora do escopo desse pequeno ensaio. Para os curio
 > 
 >> Kaizer Chills acordou no meio da noite com uma irresistível vontade de escrever contos. Ele não estava enfadado pelo seu trabalho. Pelo contrário, as coisas estavam indo muito bem graças a um novo achado.
 >> 
->> Mesmo assim, sua mente populou-se de imagens labirínticas que ele sentiu que requeriam ser fixadas em papel. Uma delas era A Casa dos Espelhos, um lucar repleto de salas especulares obsessivamente regulares. Cada uma delas era aberta para a próxima por meio de duas saídas em lados opostos. Todo o resto — paredes, chão, teto — era coberto por espelhos, cada superfície refletia compulsivamente seu entorno.
+>> Mesmo assim, sua mente populou-se de imagens labirínticas que ele sentiu que requeriam ser fixadas em papel. Uma delas era A Casa dos Espelhos, um lugar repleto de salas especulares obsessivamente regulares. Cada uma delas era aberta para a próxima por meio de duas saídas em lados opostos. Todo o resto — paredes, chão, teto — era coberto por espelhos, cada superfície refletia compulsivamente seu entorno.
 >> 
 >> O lugar era projetado de tal maneira que, se alguém se colocasse em frente à saída de uma sala, veria um corredor infinito de salas exatamente idênticas e cada vez menores do que estava projetado nos espelhos. Realidade e imagem eram a mesma coisa.
 >> 
