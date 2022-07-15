@@ -85,7 +85,7 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
         </ul>
       </section>
       <nav>
-        <Button onClick={() => toggleChapters()}>=</Button>
+        <Button onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
       </nav>
     </Nav>
   )
