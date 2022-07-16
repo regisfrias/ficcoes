@@ -6,9 +6,9 @@ import { BREAKPOINTS, SPACINGS } from '../constants'
 
 const Wrapper = styled.div`
   margin: auto;
-  max-width: calc(100% - ${SPACINGS.padding_sm}px);
+  max-width: calc(100% - ${SPACINGS.padding_sm * 2}px);
   @media screen and (min-width: ${BREAKPOINTS.sm}px) {
-    max-width: ${BREAKPOINTS.sm - SPACINGS.padding_sm}px;
+    max-width: ${BREAKPOINTS.sm - SPACINGS.padding_sm * 2}px;
   }
 `
 

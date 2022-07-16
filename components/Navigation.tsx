@@ -3,14 +3,14 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
-import { COLORS, DIMENSIONS, SPEEDS } from '../constants'
+import { DIMENSIONS, SPEEDS } from '../constants'
 
 const Nav = styled.div`
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  top: calc(100% - ${DIMENSIONS.buttonSize}px);
+  top: calc(100% - ${DIMENSIONS.button_lg}px);
   transition: top ${SPEEDS.fast}s;
   overflow: hidden;
   &.open {
@@ -18,7 +18,8 @@ const Nav = styled.div`
   }
 
   nav {
-    background-color: ${COLORS.white};
+    background-color: ${({ theme }) => theme.background };
+    color: ${({ theme }) => theme.text };
     position: absolute;
     left: 0;
     right: 0;
@@ -28,7 +29,7 @@ const Nav = styled.div`
   }
 
   section {
-    background-color: ${COLORS.white};
+    background-color: ${({ theme }) => theme.background };
     position: absolute;
     width: 100%;
     height: 100%;
@@ -37,20 +38,20 @@ const Nav = styled.div`
     align-items: center;
 
     ul {
-      color: ${COLORS.sepia};
+      color: ${({ theme }) => theme.link };
       padding: 0;
       margin: 0;
       li {
         a {
-          color: ${COLORS.sepia};
+          color: ${({ theme }) => theme.link };
           &:hover {
-            color: ${COLORS.black};
+            color: ${({ theme }) => theme.text };
           }
         }
         &.current {
-          color: ${COLORS.black};
+          color: ${({ theme }) => theme.text };
           a {
-            color: ${COLORS.black};
+            color: ${({ theme }) => theme.text };
           }
         }
       }
@@ -60,10 +61,11 @@ const Nav = styled.div`
 
 const Button = styled.button`
   border: 0;
-  width: 40px;
-  height: 40px;
+  width: ${DIMENSIONS.button_lg}px;
+  height: ${DIMENSIONS.button_lg}px;
   cursor: pointer;
   background-color: transparent;
+  color: ${({ theme }) => theme.text };
   &[disabled] {
     opacity: 0;
     cursor: default;
