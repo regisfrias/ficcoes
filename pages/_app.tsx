@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import { ThemeProvider } from "styled-components"
 import styled from 'styled-components'
 import { lightTheme, darkTheme, GlobalStyles } from "../components/ThemeConfig"
-import { DIMENSIONS, SPACINGS, COLORS } from '../constants'
+import { DIMENSIONS, SPACINGS, COLORS, SPEEDS } from '../constants'
 
 const ToggleTheme = styled.button`
   width: ${DIMENSIONS.button_sm}px;
@@ -16,6 +16,9 @@ const ToggleTheme = styled.button`
   position: absolute;
   top: ${SPACINGS.padding_sm}px;
   right: ${SPACINGS.padding_sm}px;
+  transition: transform ${SPEEDS.fast}s;
+  transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
+
   cursor: pointer;
   &:before {
     content: '';
@@ -55,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return(
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <ToggleTheme onClick={toggleTheme}>Switch Theme</ToggleTheme>
+      <ToggleTheme onClick={toggleTheme} theme={theme}>Switch Theme</ToggleTheme>
       {isMounted && <Component {...pageProps} />}
     </ThemeProvider>
   )
