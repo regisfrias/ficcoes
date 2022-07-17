@@ -71,6 +71,38 @@ const Button = styled.button`
     opacity: 0;
     cursor: default;
   }
+
+  &.toggle-menu {
+    position: relative;
+    color: transparent;
+    &:before, &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: ${(DIMENSIONS.button_lg - DIMENSIONS.border_thick) / 2}px;
+      height: 0;
+      width: ${DIMENSIONS.button_lg / 2}px;
+      left: ${DIMENSIONS.button_lg / 4}px;
+      border-bottom: ${DIMENSIONS.border_thick}px solid ${COLORS.black};
+      transition: transform ${SPEEDS.fast}s;
+    }
+    &:before {
+      margin-top: -3px;
+      color: ${COLORS.black}
+    }
+    &:after {
+      margin-top: 3px;
+      color: ${COLORS.black}
+    }
+    &.open {
+      &:before {
+        transform: rotate(-45deg) translate(0, 4px);
+      }
+      &:after {
+        transform: rotate(45deg) translate(0, -4px);
+      }
+    }
+  }
 `
 
 export default function Navigation({chapters}: {chapters: Chapters}) {
@@ -113,7 +145,7 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
       </section>
       <nav>
         <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'<'}</Button>
-        <Button onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
+        <Button className={`toggle-menu ${isOpen ? 'open' : ''}`} onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
         <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'>'}</Button>
       </nav>
     </Nav>
