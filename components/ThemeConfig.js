@@ -18,14 +18,15 @@ export const GlobalStyles = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;;
+    line-height: 1.6;
   }
 
   body {
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
     transition: background-color ${SPEEDS.fast}s, color ${SPEEDS.fast}s;
+    font-size: 16px;
   }
   a {
     color: inherit;
