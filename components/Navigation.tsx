@@ -13,7 +13,7 @@ const Nav = styled.div`
   top: calc(100% - ${DIMENSIONS.button_lg}px);
   transition: top ${SPEEDS.fast}s;
   overflow: hidden;
-  box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
   &.open {
     top: 0;
   }
@@ -67,6 +67,7 @@ const Button = styled.button`
   cursor: pointer;
   background-color: transparent;
   color: ${({ theme }) => theme.text };
+  /* font-size: 100%; */
   &[disabled] {
     opacity: 0;
     cursor: default;
@@ -96,10 +97,10 @@ const Button = styled.button`
     }
     &.open {
       &:before {
-        transform: rotate(-45deg) translate(0, 4px);
+        transform: rotate(-45deg) translate(-2px, 2px);
       }
       &:after {
-        transform: rotate(45deg) translate(0, -4px);
+        transform: rotate(45deg) translate(-2px, -2px);
       }
     }
   }
@@ -144,9 +145,9 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
         </ul>
       </section>
       <nav>
-        <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'<'}</Button>
+        <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>
         <Button className={`toggle-menu ${isOpen ? 'open' : ''}`} onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
-        <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'>'}</Button>
+        <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'❯'}</Button>
       </nav>
     </Nav>
   )
