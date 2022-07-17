@@ -1,5 +1,5 @@
 import { createGlobalStyle} from "styled-components"
-import { COLORS, SPEEDS } from '../constants'
+import { COLORS, SPEEDS, BREAKPOINTS } from '../constants'
 
 export const lightTheme = {
   background: `${COLORS.white}`,
@@ -28,7 +28,10 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
     transition: background-color ${SPEEDS.fast}s, color ${SPEEDS.fast}s;
-    font-size: 16px;
+    font-size: 18px;
+    @media screen and (min-width: ${BREAKPOINTS.sm}px) {
+      font-size: 16px;
+    }
   }
   a {
     color: inherit;
