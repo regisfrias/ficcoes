@@ -13,17 +13,24 @@ const Wrapper = styled.div`
   }
 `
 
+const Title = styled.h1`
+  text-align: center;
+  margin: ${SPACINGS.padding * 2}px 0;
+`
+
 export default function Layout({
   children,
   chapters,
+  title,
 }: {
   children: ReactNode,
   chapters: Chapters,
+  title: string,
 }) {
   return(
     <Wrapper>
       <Navigation chapters={chapters} />
-
+      <Title>{title}</Title>
       {children}
     </Wrapper>
   )

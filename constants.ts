@@ -1,5 +1,6 @@
 export const SPACINGS = {
-  padding_sm: 20
+  padding_sm: 20,
+  padding: 40,
 }
 
 export const DIMENSIONS = {
