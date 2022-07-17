@@ -38,4 +38,8 @@ export const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+  blockquote {
+    font-style: italic;
+  }
 `
