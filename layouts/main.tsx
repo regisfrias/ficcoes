@@ -22,14 +22,18 @@ export default function Layout({
   children,
   chapters,
   title,
+  toggleTheme,
+  theme,
 }: {
   children: ReactNode,
   chapters: Chapters,
   title: string,
+  toggleTheme: Function,
+  theme: string,
 }) {
   return(
     <>
-      <Navigation chapters={chapters} />
+      <Navigation chapters={chapters} toggleTheme={toggleTheme} theme={theme} />
       <Wrapper>
         <Title>{title}</Title>
         {children}

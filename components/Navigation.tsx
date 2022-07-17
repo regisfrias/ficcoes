@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
-import { DIMENSIONS, SPEEDS } from '../constants'
+import { DIMENSIONS, SPEEDS, COLORS, SPACINGS } from '../constants'
 
 const Nav = styled.div`
   position: fixed;
@@ -60,6 +60,46 @@ const Nav = styled.div`
   }
 `
 
+
+const ToggleTheme = styled.button`
+  width: ${DIMENSIONS.button_sm}px;
+  height: ${DIMENSIONS.button_sm}px;
+  border: ${DIMENSIONS.border_thick}px solid ${COLORS.black};
+  border-radius: 100%;
+  background-color: ${COLORS.white};
+  color: transparent;
+  overflow: hidden;
+  position: fixed;
+  bottom: ${(DIMENSIONS.button_lg - DIMENSIONS.button_sm) / 2}px;
+  left: ${SPACINGS.padding_sm}px;
+  z-index: 1;
+  transition: transform ${SPEEDS.fast}s;
+  transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    display: block;
+    border-radius: 100%;
+    background-color: ${COLORS.black};
+    width: ${DIMENSIONS.button_sm - DIMENSIONS.border_thick * 4}px;
+    height: ${DIMENSIONS.button_sm - DIMENSIONS.border_thick * 4}px;
+    position: absolute;
+    top: ${DIMENSIONS.border_thick}px;
+    left: ${DIMENSIONS.border_thick}px;
+  }
+  &:after {
+    content: '';
+    display: block;
+    width: ${DIMENSIONS.button_sm / 2 - DIMENSIONS.border_thick}px;
+    height: 100%;
+    background-color: ${COLORS.white};
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+`
+
 const Button = styled.button`
   border: 0;
   width: ${DIMENSIONS.button_lg}px;
@@ -106,7 +146,7 @@ const Button = styled.button`
   }
 `
 
-export default function Navigation({chapters}: {chapters: Chapters}) {
+export default function Navigation({chapters, toggleTheme, theme}: {chapters: Chapters, toggleTheme: Function, theme: string}) {
   const router = useRouter()
   const path = router.query.id
   const [ isOpen, open ] = useState(false)
@@ -117,6 +157,10 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
     if (route) {
       router.push(route)
     }
+  }
+
+  const dispatchTheme = () => {
+    toggleTheme()
   }
 
   useEffect(() => {
@@ -137,6 +181,7 @@ export default function Navigation({chapters}: {chapters: Chapters}) {
   return (
     <Nav className={isOpen ? 'open': ''}>
       <section>
+        <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
         <ul>
           <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Ficções</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
