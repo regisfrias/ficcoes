@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from "styled-components"
 import styled from 'styled-components'
-import { lightTheme, darkTheme, GlobalStyles } from "../themeConfig"
+import { lightTheme, darkTheme, GlobalStyles } from "../components/ThemeConfig"
 import { DIMENSIONS, SPACINGS, COLORS } from '../constants'
 
 const ToggleTheme = styled.button`

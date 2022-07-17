@@ -1,5 +1,5 @@
 import { createGlobalStyle} from "styled-components"
-import { COLORS, SPEEDS } from './constants'
+import { COLORS, SPEEDS } from '../constants'
 
 export const lightTheme = {
   background: `${COLORS.white}`,
