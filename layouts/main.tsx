@@ -28,10 +28,12 @@ export default function Layout({
   title: string,
 }) {
   return(
-    <Wrapper>
+    <>
       <Navigation chapters={chapters} />
-      <Title>{title}</Title>
-      {children}
-    </Wrapper>
+      <Wrapper>
+        <Title>{title}</Title>
+        {children}
+      </Wrapper>
+    </>
   )
 }
