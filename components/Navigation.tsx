@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
-import { DIMENSIONS, SPEEDS, COLORS } from '../constants'
+import { DIMENSIONS, SPEEDS } from '../constants'
 
 const Nav = styled.div`
   position: fixed;
@@ -84,16 +84,16 @@ const Button = styled.button`
       height: 0;
       width: ${DIMENSIONS.button_lg / 2}px;
       left: ${DIMENSIONS.button_lg / 4}px;
-      border-bottom: ${DIMENSIONS.border_thick}px solid ${COLORS.black};
+      border-bottom: ${DIMENSIONS.border_thick}px solid ${({ theme }) => theme.text };
       transition: transform ${SPEEDS.fast}s;
     }
     &:before {
       margin-top: -3px;
-      color: ${COLORS.black}
+      color: ${({ theme }) => theme.text }
     }
     &:after {
       margin-top: 3px;
-      color: ${COLORS.black}
+      color: ${({ theme }) => theme.text }
     }
     &.open {
       &:before {
