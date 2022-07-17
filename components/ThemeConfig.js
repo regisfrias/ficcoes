@@ -9,7 +9,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   background: `${COLORS.black}`,
-  link: `${COLORS.sepia}`,
+  link: `${COLORS.beige}`,
   text: `${COLORS.white}`,
 }
 
