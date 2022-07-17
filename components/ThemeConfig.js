@@ -5,12 +5,14 @@ export const lightTheme = {
   background: `${COLORS.white}`,
   link: `${COLORS.sepia}`,
   text: `${COLORS.black}`,
+  shadow: `rgba(0, 0, 0, ${0.2})`,
 }
 
 export const darkTheme = {
   background: `${COLORS.black}`,
   link: `${COLORS.beige}`,
   text: `${COLORS.white}`,
+  shadow: `rgba(0, 0, 0, ${0.7})`,
 }
 
 export const GlobalStyles = createGlobalStyle`

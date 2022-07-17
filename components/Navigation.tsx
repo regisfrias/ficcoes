@@ -13,7 +13,7 @@ const Nav = styled.div`
   top: calc(100% - ${DIMENSIONS.button_lg}px);
   transition: top ${SPEEDS.fast}s;
   overflow: hidden;
-  box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 30px 0 ${({ theme }) => theme.shadow };
   &.open {
     top: 0;
   }
