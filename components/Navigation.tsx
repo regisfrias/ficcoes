@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
-import { DIMENSIONS, SPEEDS } from '../constants'
+import { DIMENSIONS, SPEEDS, COLORS } from '../constants'
 
 const Nav = styled.div`
   position: fixed;
@@ -13,6 +13,7 @@ const Nav = styled.div`
   top: calc(100% - ${DIMENSIONS.button_lg}px);
   transition: top ${SPEEDS.fast}s;
   overflow: hidden;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
   &.open {
     top: 0;
   }
