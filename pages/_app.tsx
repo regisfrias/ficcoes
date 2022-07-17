@@ -16,10 +16,14 @@ const ToggleTheme = styled.button`
   position: absolute;
   top: ${SPACINGS.padding_sm}px;
   right: ${SPACINGS.padding_sm}px;
-  transition: transform ${SPEEDS.fast}s;
+  transition: transform ${SPEEDS.fast}s, opacity ${SPEEDS.fast}s;
   transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
-
   cursor: pointer;
+  opacity: 0.3;
+  &:hover {
+    opacity: 1;
+  }
+
   &:before {
     content: '';
     display: block;
