@@ -50,6 +50,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     setIsMounted(true)
+    setTheme(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
   }, [])
 
   const toggleTheme = () => {
