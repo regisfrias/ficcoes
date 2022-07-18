@@ -1,6 +1,6 @@
 ---
 title: "Eu sou"
-date: "1979-01-04"
+date: "1979-01-05"
 ---
 
 > Por que os seres humanos precisam tanto acreditar que suas escolhas são livres?
