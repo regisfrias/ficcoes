@@ -5,7 +5,7 @@ export const SPACINGS = {
 
 export const DIMENSIONS = {
   button_lg: 40,
-  button_sm: 25,
+  button_sm: 20,
   border_thick: 2,
 }
 
