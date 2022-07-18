@@ -29,8 +29,9 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     transition: background-color ${SPEEDS.fast}s, color ${SPEEDS.fast}s;
     font-size: 20px;
+    font-size: ${props => (props.fontSize + 2)}px;
     @media screen and (min-width: ${BREAKPOINTS.sm}px) {
-      font-size: 18px;
+      font-size: ${props => props.fontSize}px;
     }
   }
   a {
@@ -51,5 +52,12 @@ export const GlobalStyles = createGlobalStyle`
       margin-inline-start: ${SPACINGS.padding}px;
       margin-inline-end: ${SPACINGS.padding}px;
     }
+  }
+
+  .large {
+    font-size: 1rem;
+  }
+  .small {
+    font-size: 0.8rem;
   }
 `

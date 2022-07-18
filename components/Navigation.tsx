@@ -68,7 +68,7 @@ const ToggleTheme = styled.button`
   background-color: ${COLORS.white};
   color: transparent;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   bottom: ${(DIMENSIONS.button_lg - DIMENSIONS.button_sm) / 2}px;
   left: ${SPACINGS.padding_sm}px;
   z-index: 1;
@@ -113,7 +113,6 @@ const Button = styled.button`
   cursor: pointer;
   background-color: transparent;
   color: ${({ theme }) => theme.text };
-  /* font-size: 100%; */
   &[disabled] {
     opacity: 0;
     cursor: default;
@@ -152,7 +151,21 @@ const Button = styled.button`
   }
 `
 
-export default function Navigation({chapters, toggleTheme, theme}: {chapters: Chapters, toggleTheme: Function, theme: string}) {
+const FontSize = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  button {
+    cursor: pointer;
+    height: ${DIMENSIONS.button_lg}px;
+    width: ${DIMENSIONS.button_lg}px;
+    color: ${({ theme }) => theme.text };
+    background-color: transparent;
+    border: 0;
+  }
+`
+
+export default function Navigation({chapters, toggleTheme, theme, setFontSize}: {chapters: Chapters, toggleTheme: Function, theme: string, setFontSize: Function}) {
   const router = useRouter()
   const path = router.query.id
   const [ isOpen, open ] = useState(false)
@@ -167,6 +180,10 @@ export default function Navigation({chapters, toggleTheme, theme}: {chapters: Ch
 
   const dispatchTheme = () => {
     toggleTheme()
+  }
+
+  const fontSize = (direction: string) => {
+    setFontSize(direction)
   }
 
   useEffect(() => {
@@ -200,6 +217,10 @@ export default function Navigation({chapters, toggleTheme, theme}: {chapters: Ch
         <Button className={`toggle-menu ${isOpen ? 'open' : ''}`} onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
         <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'❯'}</Button>
       </nav>
+      <FontSize>
+        <button onClick={() => fontSize('down')}><span className="small">A</span></button>
+        <button onClick={() => fontSize('up')}><span className="large">A</span></button>
+      </FontSize>
     </Nav>
   )
 }

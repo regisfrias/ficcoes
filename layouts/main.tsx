@@ -24,16 +24,18 @@ export default function Layout({
   title,
   toggleTheme,
   theme,
+  setFontSize,
 }: {
   children: ReactNode,
   chapters: Chapters,
   title: string,
   toggleTheme: Function,
   theme: string,
+  setFontSize: Function,
 }) {
   return(
     <>
-      <Navigation chapters={chapters} toggleTheme={toggleTheme} theme={theme} />
+      <Navigation chapters={chapters} toggleTheme={toggleTheme} theme={theme} setFontSize={setFontSize} />
       <Wrapper>
         <Title>{title}</Title>
         {children}

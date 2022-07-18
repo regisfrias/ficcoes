@@ -9,14 +9,16 @@ export default function Post({
   postData,
   toggleTheme,
   theme,
+  setFontSize,
 }: {
   chapters: Chapters,
   postData: PostData,
   toggleTheme: Function,
   theme: string,
+  setFontSize: Function,
 }) {
   return (
-    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} theme={theme}>
+    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} theme={theme} setFontSize={setFontSize}>
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )
