@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import { getSortedPostsData } from '../lib/chapters'
 import Layout from '../layouts/main'
@@ -19,7 +20,7 @@ function Fictions({
 }) {
   return (
     <Layout chapters={chapters} title='Ficcões' toggleTheme={toggleTheme} theme={theme}>
-      <Cover><em>Régis Frias</em><br /><em>2022</em></Cover>
+      <Cover><Link href="https://regisfrias.com"><a><em>Régis Frias</em></a></Link><br /><em>2022</em></Cover>
     </Layout>
   )
 }
