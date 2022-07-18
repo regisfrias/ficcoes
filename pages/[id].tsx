@@ -6,13 +6,17 @@ import { Chapters, PostData } from '../types'
 
 export default function Post({
   chapters,
-  postData
+  postData,
+  toggleTheme,
+  theme,
 }: {
   chapters: Chapters,
-  postData: PostData
+  postData: PostData,
+  toggleTheme: Function,
+  theme: string,
 }) {
   return (
-    <Layout chapters={chapters} title={postData.title}>
+    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} theme={theme}>
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )
