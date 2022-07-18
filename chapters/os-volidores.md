@@ -11,7 +11,7 @@ Por exemplo, em certa ocasião, um membro da tribo sentiu fome e desejou pato co
 
 Inicialmente, o Dr. Moledor pensou que fosse uma coincidência extrema, mas então ele começou a presenciar isso diversas vezes. Cada vez que alguém desejava alguma coisa, o desejo era realizado quase que imediatamente.
 
-Quando os relatórios do Dr. Moledor começaram a chegar à metrópole, a curiosidade de outros cientistas foi atiçada. A matemática Island Meadow foi a primeira a chegar com uma equipe de doutorandos e outros entusiastas. Eles coletaram cuidadosamente todos os dados que conseguiram desses eventos e analizaram-nos diligentemente por um período de vinte e cinco anos—sendo eles também portadores de uma atípica sorte com financiamento de pesquisa.
+Quando os relatórios do Dr. Moledor começaram a chegar à metrópole, a curiosidade de outros cientistas foi estimulada. A matemática Island Meadow foi a primeira a chegar com uma equipe de doutorandos e outros entusiastas. Eles coletaram cuidadosamente todos os dados que conseguiram desses eventos e analizaram-nos diligentemente por um período de vinte e cinco anos—sendo eles também portadores de uma atípica sorte com financiamento de pesquisa.
 
 Eles concluíram que, o que quer que estivesse fazendo com que os desejos fossem realizados, os dados agora apontavam para um lento declínio. Os números do período estudado pareciam traçar a seção de uma curva normal no início da sua segunda metade.
 
