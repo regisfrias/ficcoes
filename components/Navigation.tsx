@@ -60,7 +60,6 @@ const Nav = styled.div`
   }
 `
 
-
 const ToggleTheme = styled.button`
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
@@ -73,9 +72,16 @@ const ToggleTheme = styled.button`
   bottom: ${(DIMENSIONS.button_lg - DIMENSIONS.button_sm) / 2}px;
   left: ${SPACINGS.padding_sm}px;
   z-index: 1;
-  transition: transform ${SPEEDS.fast}s;
+  transition: transform ${SPEEDS.fast}s, opacity ${SPEEDS.fast}s;
   transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
-  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+
+  &.open {
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+  }
 
   &:before {
     content: '';
@@ -181,7 +187,7 @@ export default function Navigation({chapters, toggleTheme, theme}: {chapters: Ch
   return (
     <Nav className={isOpen ? 'open': ''}>
       <section>
-        <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
+        <ToggleTheme className={isOpen ? 'open': ''} onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
         <ul>
           <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Capa</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
