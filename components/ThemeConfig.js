@@ -1,5 +1,5 @@
 import { createGlobalStyle} from "styled-components"
-import { COLORS, SPEEDS, BREAKPOINTS } from '../constants'
+import { COLORS, SPEEDS, BREAKPOINTS, SPACINGS } from '../constants'
 
 export const lightTheme = {
   background: `${COLORS.white}`,
@@ -28,9 +28,9 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
     transition: background-color ${SPEEDS.fast}s, color ${SPEEDS.fast}s;
-    font-size: 18px;
+    font-size: 20px;
     @media screen and (min-width: ${BREAKPOINTS.sm}px) {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
   a {
@@ -43,6 +43,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   blockquote {
-    font-style: italic;
+    font-size: 90%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5vw;
+    margin-inline-end: 5vw;
+    @media screen and (min-width: ${BREAKPOINTS.sm}px) {
+      margin-inline-start: ${SPACINGS.padding}px;
+      margin-inline-end: ${SPACINGS.padding}px;
+    }
   }
 `
