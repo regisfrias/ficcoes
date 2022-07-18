@@ -183,7 +183,7 @@ export default function Navigation({chapters, toggleTheme, theme}: {chapters: Ch
       <section>
         <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
         <ul>
-          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Ficções</a></Link></li>
+          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Capa</a></Link></li>
           {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
             <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
             ) : null}

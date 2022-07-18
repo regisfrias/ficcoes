@@ -1,6 +1,6 @@
 ---
 title: "Finitude"
-date: "1979-01-05"
+date: "1979-01-04"
 ---
 
 A Era da Finidade começou com o último número. Isso não é uma forma de expressão, o último número é literalmente o último número. Até a segunda metade do século XXI, seres humanos acreditavam que os números estendiam até o infinito. Compreensível. É claro! Qualquer número que se imaginar, é fácil adicionar um a ele e ter-se-á um número maior. Adicione-se um a esse último, e ter-se-á um ainda maior. Repita-se o processo indefinidamente e pode-se fazer isso para sempre, cada número maior que o anterior. Nunca chegar-se-ia ao fim.

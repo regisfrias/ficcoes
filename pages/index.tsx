@@ -1,11 +1,14 @@
+import styled from 'styled-components'
 import { getSortedPostsData } from '../lib/chapters'
-import { getPostData } from '../lib/chapters'
 import Layout from '../layouts/main'
 import { Chapters, PostData } from '../types'
 
+const Cover = styled.div`
+  text-align: center;
+`
+
 function Fictions({
   chapters,
-  postData,
   toggleTheme,
   theme,
 }: {
@@ -15,8 +18,8 @@ function Fictions({
   theme: string,
 }) {
   return (
-    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} theme={theme}>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+    <Layout chapters={chapters} title='Ficcões' toggleTheme={toggleTheme} theme={theme}>
+      <Cover><em>Régis Frias</em><br /><em>2022</em></Cover>
     </Layout>
   )
 }
@@ -25,11 +28,9 @@ export default Fictions
 
 export async function getStaticProps() {
   const chapters = getSortedPostsData('chapters')
-  const postData = await getPostData('intro', 'intro')
   return {
     props: {
       chapters,
-      postData
     }
   }
 }

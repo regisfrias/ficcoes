@@ -1,6 +1,6 @@
 ---
 title: "Os Volidores"
-date: "1979-01-04"
+date: "1979-01-03"
 ---
 
 Em um antigo e agora quase esquecido capítulo da história humana, havia uma tribo conhecida como Os Volidores. Eles tinham modos muito peculiares: eles sempre esperavam que seus semelhantes levassem em conta suas vontades acima de qualquer outra coisa. Daí o nome.
