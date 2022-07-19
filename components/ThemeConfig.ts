@@ -15,7 +15,16 @@ export const darkTheme = {
   shadow: `rgba(0, 0, 0, ${0.7})`,
 }
 
-export const GlobalStyles = createGlobalStyle`
+interface GlobalProps {
+  fontSize: number
+  theme: {
+    background: string
+    text: string
+    link: string
+  }
+}
+
+export const GlobalStyles = createGlobalStyle<GlobalProps>`
   html,
   body {
     padding: 0;
