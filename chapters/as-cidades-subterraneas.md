@@ -1,6 +1,6 @@
 ---
 title: "As Cidades Subterrâneas"
-date: "1979-01-01"
+date: "1979-01-04"
 ---
 
 A primeira impressão daqueles que visitam Nova Constantinopla é que ela é uma metrópole bastante comum, com seus ires e vires de teleólogos ocupados, prédios imensos e um comércio de rua vibrante. Mas uma inspeção mais cuidadosa revela que essa cidade não tem centro e é uma colcha de retalhos cultural e arquitetural. Além disso, retalhos do mesmo tipo aparecem mais ou menos regularmente dentro dos limites da cidade, como se cada um houvesse sido interrompido pela imposição do próximo, mas continua mais à frente.
