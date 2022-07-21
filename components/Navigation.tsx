@@ -42,6 +42,7 @@ const Nav = styled.aside`
       color: ${({ theme }) => theme.link };
       padding: 0;
       margin: 0;
+      list-style: none;
       li {
         a {
           color: ${({ theme }) => theme.link };
