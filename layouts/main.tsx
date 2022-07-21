@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation'
 import { Chapters } from '../types'
 import { BREAKPOINTS, SPACINGS } from '../constants'
 
-const Wrapper = styled.div`
+const Wrapper = styled.article`
   margin: auto;
   max-width: calc(100% - ${SPACINGS.padding_sm * 2}px);
   padding-bottom: ${SPACINGS.padding_sm * 4}px;

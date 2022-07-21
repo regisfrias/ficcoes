@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { Chapters } from '../types'
 import { DIMENSIONS, SPEEDS, COLORS, SPACINGS } from '../constants'
 
-const Nav = styled.div`
+const Nav = styled.aside`
   position: fixed;
   left: 0;
   right: 0;
@@ -198,12 +198,17 @@ export default function Navigation({chapters, toggleTheme, theme, setFontSize}: 
     <Nav className={isOpen ? 'open': ''}>
       <section>
         <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
-        <ul>
-          <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Capa</a></Link></li>
-          {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-            <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
-            ) : null}
-        </ul>
+        <article>
+          <header>
+            <h1>Índice</h1>
+          </header>
+          <ul>
+            <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Capa</a></Link></li>
+            {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
+              <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
+              ) : null}
+          </ul>
+        </article>
       </section>
       <nav>
         <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>

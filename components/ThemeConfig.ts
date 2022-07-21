@@ -37,12 +37,20 @@ export const GlobalStyles = createGlobalStyle<GlobalProps>`
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.text};
     transition: background-color ${SPEEDS.fast}s, color ${SPEEDS.fast}s;
-    font-size: 20px;
     font-size: ${props => (props.fontSize + 2)}px;
     @media screen and (min-width: ${BREAKPOINTS.sm}px) {
       font-size: ${props => props.fontSize}px;
     }
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
   a {
     color:  ${({ theme }) => theme.link};;
   }

@@ -21,7 +21,7 @@ function Fictions({
   setFontSize: Function,
 }) {
   return (
-    <Layout chapters={chapters} title='Ficcões' toggleTheme={toggleTheme} theme={theme} setFontSize={setFontSize}>
+    <Layout chapters={chapters} title='Ficções' toggleTheme={toggleTheme} theme={theme} setFontSize={setFontSize}>
       <Cover><Link href="https://regisfrias.com"><a><em>Régis Frias</em></a></Link><br /><em>2022</em></Cover>
     </Layout>
   )
