@@ -167,6 +167,7 @@ export default function Navigation({chapters, toggleTheme, theme, setFontSize}: 
   const [ prevNext, setPrevNext ] = useState<{prev: string | null, next: string | null}>({prev: '', next: ''})
 
   const linkTo = (route: string | null) => {
+    open(false)
     if (route) {
       router.push(route)
     }
