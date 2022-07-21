@@ -18,7 +18,6 @@ function App({ Component, pageProps }: AppProps) {
   }
 
   const updateFontSize = (direction: string) => {
-    console.log('direction', direction);
     const amount = direction === 'up' ? 1 : -1;
     setFontSize(fontSize + amount)
   }
