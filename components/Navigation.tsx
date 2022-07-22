@@ -274,7 +274,7 @@ export default function Navigation({
         setPrevNext({prev, next})
       }
     }
-  }, [chapterId, chapters])
+  }, [chapterId, chapters, path])
 
   return (
     <Wrapper className={isOpen ? 'open': ''}>
