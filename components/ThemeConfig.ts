@@ -12,7 +12,7 @@ export const darkTheme = {
   background: `${COLORS.black}`,
   link: `${COLORS.beige}`,
   text: `${COLORS.white}`,
-  shadow: `rgba(0, 0, 0, ${0.7})`,
+  shadow: `rgba(0, 0, 0, ${0.4})`,
 }
 
 interface GlobalProps {

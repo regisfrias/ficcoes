@@ -3,28 +3,46 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import { Chapters } from '../types'
-import { DIMENSIONS, SPEEDS, COLORS, SPACINGS } from '../constants'
+import { DIMENSIONS, SPEEDS, COLORS, SPACINGS, BREAKPOINTS } from '../constants'
 
-const Nav = styled.aside`
-  position: fixed;
+const Wrapper = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
   top: calc(100% - ${DIMENSIONS.button_lg}px);
   transition: top ${SPEEDS.fast}s;
   overflow: hidden;
-  box-shadow: 0 0 30px 0 ${({ theme }) => theme.shadow };
+  position: fixed;
+  z-index: 1;
+
   &.open {
     top: 0;
   }
 
-  nav {
-    background-color: ${({ theme }) => theme.background };
-    color: ${({ theme }) => theme.text };
-    position: absolute;
-    left: 0;
-    right: 0;
+  .menu_wrapper {
+    position: fixed;
+    width: 100%;
     bottom: 0;
+    z-index: 1;
+    background-color: ${({ theme }) => theme.background };
+    box-shadow: 0 0 30px 0 ${({ theme }) => theme.shadow };
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: calc(100% - ${SPACINGS.padding_sm * 2}px);
+      margin: auto;
+      @media screen and (min-width: ${BREAKPOINTS.sm}px) {
+        max-width: ${BREAKPOINTS.sm - SPACINGS.padding_sm * 2}px;
+      }
+      .left_nav {
+        width: ${DIMENSIONS.button_lg * 2}px;
+      }
+    }
+  }
+
+  .quick_nav {
+    color: ${({ theme }) => theme.text };
     display: flex;
     justify-content: center;
   }
@@ -32,11 +50,17 @@ const Nav = styled.aside`
   section {
     background-color: ${({ theme }) => theme.background };
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     display: flex;
+    overflow: auto;
     justify-content: center;
     align-items: center;
+    padding-bottom: ${SPACINGS.padding}px;
 
     ul {
       color: ${({ theme }) => theme.link };
@@ -69,7 +93,6 @@ const ToggleTheme = styled.button`
   background-color: ${COLORS.white};
   color: transparent;
   overflow: hidden;
-  position: absolute;
   bottom: ${(DIMENSIONS.button_lg - DIMENSIONS.button_sm) / 2}px;
   left: ${SPACINGS.padding_sm}px;
   z-index: 1;
@@ -146,9 +169,6 @@ const Button = styled.button`
 `
 
 const FontSize = styled.div`
-  position: absolute;
-  bottom: 0;
-  right: 0;
   button {
     cursor: pointer;
     height: ${DIMENSIONS.button_lg}px;
@@ -159,7 +179,17 @@ const FontSize = styled.div`
   }
 `
 
-export default function Navigation({chapters, toggleTheme, theme, setFontSize}: {chapters: Chapters, toggleTheme: Function, theme: string, setFontSize: Function}) {
+export default function Navigation({
+  chapters,
+  toggleTheme,
+  theme,
+  setFontSize
+}: {
+  chapters: Chapters,
+  toggleTheme: Function,
+  theme: string,
+  setFontSize: Function
+}) {
   const router = useRouter()
   const path = router.query.id
   const [ isOpen, open ] = useState(false)
@@ -197,9 +227,24 @@ export default function Navigation({chapters, toggleTheme, theme, setFontSize}: 
   }, [path, chapters])
 
   return (
-    <Nav className={isOpen ? 'open': ''}>
+    <Wrapper className={isOpen ? 'open': ''}>
+      <div className="menu_wrapper">
+        <div className="container">
+          <div className="left_nav">
+            <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
+          </div>
+          <nav className='quick_nav'>
+            <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>
+            <Button className={`toggle-menu ${isOpen ? 'open' : ''}`} onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
+            <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'❯'}</Button>
+          </nav>
+          <FontSize>
+            <button onClick={() => fontSize('down')}><span className="small">A</span></button>
+            <button onClick={() => fontSize('up')}><span className="large">A</span></button>
+          </FontSize>
+        </div>
+      </div>
       <section>
-        <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
         <article>
           <header>
             <h1>Índice</h1>
@@ -212,15 +257,6 @@ export default function Navigation({chapters, toggleTheme, theme, setFontSize}: 
           </ul>
         </article>
       </section>
-      <nav>
-        <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>
-        <Button className={`toggle-menu ${isOpen ? 'open' : ''}`} onClick={() => toggleChapters()}>{isOpen ? 'x' : '='}</Button>
-        <Button onClick={() => linkTo(prevNext.next)} disabled={!prevNext.next}>{'❯'}</Button>
-      </nav>
-      <FontSize>
-        <button onClick={() => fontSize('down')}><span className="small">A</span></button>
-        <button onClick={() => fontSize('up')}><span className="large">A</span></button>
-      </FontSize>
-    </Nav>
+    </Wrapper>
   )
 }
