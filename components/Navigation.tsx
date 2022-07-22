@@ -89,7 +89,7 @@ const ToggleLanguage = styled.button`
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
   margin-left: ${SPACINGS.padding_sm}px;
-  color: transparent;
+  /* color: transparent; */
 `
 
 const ToggleTheme = styled.button`
@@ -191,16 +191,19 @@ export default function Navigation({
   toggleTheme,
   toggleLanguage,
   theme,
+  lang,
   setFontSize
 }: {
   chapters: Chapters,
   toggleTheme: Function,
   toggleLanguage: Function,
   theme: string,
+  lang: string,
   setFontSize: Function
 }) {
   const router = useRouter()
-  const path = router.query.id
+  const chapterId = router.query.id
+  const path = lang === 'pt' ? '/' : '/en/'
   const [ isOpen, open ] = useState(false)
   const toggleChapters = () => open(!isOpen)
   const [ prevNext, setPrevNext ] = useState<{prev: string | null, next: string | null}>({prev: '', next: ''})
@@ -217,6 +220,9 @@ export default function Navigation({
   }
 
   const dispatchLanguage = () => {
+    // lang here lags behind because it hasn't received this prop from parent when it just sent it, that's why it's flipped
+    const path = lang === 'en' ? '/' : '/en/'
+    router.push(path)
     toggleLanguage()
   }
 
@@ -226,10 +232,10 @@ export default function Navigation({
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      if (path === undefined) {
+      if (chapterId === undefined) {
         setPrevNext({prev: null, next: chapters[0].id})
       } else {
-        const currentKey = chapters.reduce((prev, curr, i) => curr.id === path ? i : prev, 0)
+        const currentKey = chapters.reduce((prev, curr, i) => curr.id === chapterId ? i : prev, 0)
         const prevObj = currentKey > 0 ? chapters[currentKey - 1] : null
         const nextObj = currentKey < chapters.length ? chapters[currentKey + 1] : null
         const prev = prevObj && prevObj.id ? prevObj.id : '/'
@@ -237,7 +243,7 @@ export default function Navigation({
         setPrevNext({prev, next})
       }
     }
-  }, [path, chapters])
+  }, [chapterId, chapters])
 
   return (
     <Wrapper className={isOpen ? 'open': ''}>
@@ -245,7 +251,7 @@ export default function Navigation({
         <div className="container">
           <div className="left_nav">
             <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch theme</ToggleTheme>
-            <ToggleLanguage>Switch language</ToggleLanguage>
+            <ToggleLanguage onClick={() => { dispatchLanguage()}}>{lang}</ToggleLanguage>
           </div>
           <nav className='quick_nav'>
             <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>
@@ -264,9 +270,9 @@ export default function Navigation({
             <h1>Índice</h1>
           </header>
           <ul>
-            <li className={`ficcoes ${path === undefined ? 'current' : ''}`}><Link href='/'><a onClick={() => toggleChapters()}>Capa</a></Link></li>
+            <li className={`ficcoes ${chapterId === undefined ? 'current' : ''}`}><Link href={path}><a onClick={() => toggleChapters()}>Capa</a></Link></li>
             {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-              <li key={chapter.id} className={`${chapter.id} ${path === chapter.id ? 'current' : ''}`}><Link href={`/${chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
+              <li key={chapter.id} className={`${chapter.id} ${chapterId === chapter.id ? 'current' : ''}`}><Link href={`${path + chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
               ) : null}
           </ul>
         </article>

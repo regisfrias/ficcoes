@@ -1,8 +1,8 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
-import Layout from '../layouts/main'
-import { getSortedPostsData } from '../lib/chapters'
-import { getAllPostIds, getPostData } from '../lib/chapters'
-import { Chapters, PostData } from '../types'
+import Layout from '../../layouts/main'
+import { getSortedPostsData } from '../../lib/chapters'
+import { getAllPostIds, getPostData } from '../../lib/chapters'
+import { Chapters, PostData } from '../../types'
 
 export default function Post({
   chapters,
@@ -29,7 +29,7 @@ export default function Post({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllPostIds('chapters')
+  const paths = getAllPostIds('chapters/en')
   return {
     paths,
     fallback: false
@@ -38,8 +38,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   if (params) {
-    const chapters = getSortedPostsData('chapters')
-    const postData = await getPostData(params.id as string, 'chapters')
+    const chapters = getSortedPostsData('chapters/en')
+    const postData = await getPostData(`en/${(params.id as string)}`, 'chapters')
     return {
       props: {
         postData,

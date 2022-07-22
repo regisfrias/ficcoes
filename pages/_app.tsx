@@ -35,6 +35,7 @@ function App({ Component, pageProps }: AppProps) {
           {...pageProps}
           toggleTheme={toggleTheme}
           toggleLanguage={toggleLanguage}
+          lang={lang}
           theme={theme} setFontSize={updateFontSize}
         />
       }
