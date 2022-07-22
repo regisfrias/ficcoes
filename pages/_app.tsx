@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react'
 import type { AppProps } from 'next/app'
+import { useRouter } from 'next/router'
 import { ThemeProvider } from "styled-components"
 import { lightTheme, darkTheme, GlobalStyles } from "../components/ThemeConfig"
 
 function App({ Component, pageProps }: AppProps) {
   const [isMounted, setIsMounted] = useState(false)
   const [theme, setTheme] = useState('light')
-  const [lang, setLang] = useState('pt')
+  const router = useRouter()
+  const [lang, setLang] = useState(router.pathname.includes('en') ? 'en' : 'pt')
   const [fontSize, setFontSize] = useState(18)
 
   useEffect(() => {
