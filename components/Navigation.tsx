@@ -37,6 +37,7 @@ const Wrapper = styled.div`
       }
       .left_nav {
         width: ${DIMENSIONS.button_lg * 2}px;
+        display: flex;
       }
     }
   }
@@ -89,7 +90,37 @@ const ToggleLanguage = styled.button`
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
   margin-left: ${SPACINGS.padding_sm}px;
-  /* color: transparent; */
+  border-radius: 100%;
+  border: ${DIMENSIONS.border_thick}px solid ${({ theme }) => theme.background };
+  background-color: ${({ theme }) => theme.background};
+  border-color: ${({ theme }) => theme.text };
+  color: ${({ theme }) => theme.text};
+  text-indent: ${DIMENSIONS.button_sm}px;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: bold;
+  &:before, &:after {
+    content: '';
+    display: block;
+    position: absolute;
+  }
+  &:before {
+    border-radius: 100%;
+    background-color: ${({ theme }) => theme.background};
+    border: ${DIMENSIONS.border_thick}px solid ${({ theme }) => theme.text };
+    top: -${DIMENSIONS.border_thick}px;
+    left: ${DIMENSIONS.button_sm * 0.187}px;
+    width: ${DIMENSIONS.button_sm * 0.25}px;
+    height: ${DIMENSIONS.button_sm - DIMENSIONS.border_thick * 2}px;
+  }
+  &:after {
+    border-bottom: ${DIMENSIONS.border_thick}px solid ${({ theme }) => theme.text };
+    top: ${DIMENSIONS.button_sm * 0.5 - DIMENSIONS.border_thick - DIMENSIONS.border_thick / 2}px;
+    left: 0;
+    width: 100%;
+  }
 `
 
 const ToggleTheme = styled.button`
