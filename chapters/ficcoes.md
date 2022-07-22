@@ -38,11 +38,11 @@ Mas crítica literária está fora do escopo desse pequeno ensaio. Para os curio
 >>> Ele escreveu diversas peças sobre esse assunto e assuntos relacionados. O principal deles era:
 >>> 
 >>>> K acordou obsecado com a idéia de condensação. Ele queria comprimir idéias cada vez mais complexas em textos cada vez menores. Uma delas era:
->>> 
->>>> C queria contar algo importante em uma sentença. Ela era:
 >>>> 
->>>>> F teve a seguinte reflexão:
+>>>>> C queria contar algo importante em uma sentença. Ela era:
 >>>>> 
->>>>>> C pensou:
+>>>>>> F teve a seguinte reflexão:
 >>>>>> 
->>>>>>> K.
+>>>>>>> C pensou:
+>>>>>>> 
+>>>>>>>> K.
