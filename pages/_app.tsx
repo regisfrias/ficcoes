@@ -6,6 +6,7 @@ import { lightTheme, darkTheme, GlobalStyles } from "../components/ThemeConfig"
 function App({ Component, pageProps }: AppProps) {
   const [isMounted, setIsMounted] = useState(false)
   const [theme, setTheme] = useState('light')
+  const [lang, setLang] = useState('pt')
   const [fontSize, setFontSize] = useState(18)
 
   useEffect(() => {
@@ -17,6 +18,10 @@ function App({ Component, pageProps }: AppProps) {
     theme == 'light' ? setTheme('dark') : setTheme('light')
   }
 
+  const toggleLanguage = () => {
+    setLang( lang === 'pt' ? 'en' : 'pt')
+  }
+
   const updateFontSize = (direction: string) => {
     const amount = direction === 'up' ? 1 : -1;
     setFontSize(fontSize + amount)
@@ -25,7 +30,14 @@ function App({ Component, pageProps }: AppProps) {
   return(
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
       <GlobalStyles fontSize={fontSize} />
-      {isMounted && <Component {...pageProps} toggleTheme={toggleTheme} theme={theme} setFontSize={updateFontSize} />}
+      {isMounted &&
+        <Component
+          {...pageProps}
+          toggleTheme={toggleTheme}
+          toggleLanguage={toggleLanguage}
+          theme={theme} setFontSize={updateFontSize}
+        />
+      }
     </ThemeProvider>
   )
 }

@@ -11,17 +11,19 @@ const Cover = styled.div`
 function Fictions({
   chapters,
   toggleTheme,
+  toggleLanguage,
   theme,
   setFontSize,
 }: {
   chapters: Chapters,
   postData: PostData,
   toggleTheme: Function,
+  toggleLanguage: Function,
   theme: string,
   setFontSize: Function,
 }) {
   return (
-    <Layout chapters={chapters} title='Ficções' toggleTheme={toggleTheme} theme={theme} setFontSize={setFontSize}>
+    <Layout chapters={chapters} title='Ficções' toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} theme={theme} setFontSize={setFontSize}>
       <Cover><Link href="https://regisfrias.com"><a><em>Régis Frias</em></a></Link><br /><em>2022</em></Cover>
     </Layout>
   )

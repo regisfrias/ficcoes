@@ -85,6 +85,13 @@ const Wrapper = styled.div`
   }
 `
 
+const ToggleLanguage = styled.button`
+  width: ${DIMENSIONS.button_sm}px;
+  height: ${DIMENSIONS.button_sm}px;
+  margin-left: ${SPACINGS.padding_sm}px;
+  color: transparent;
+`
+
 const ToggleTheme = styled.button`
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
@@ -182,11 +189,13 @@ const FontSize = styled.div`
 export default function Navigation({
   chapters,
   toggleTheme,
+  toggleLanguage,
   theme,
   setFontSize
 }: {
   chapters: Chapters,
   toggleTheme: Function,
+  toggleLanguage: Function,
   theme: string,
   setFontSize: Function
 }) {
@@ -205,6 +214,10 @@ export default function Navigation({
 
   const dispatchTheme = () => {
     toggleTheme()
+  }
+
+  const dispatchLanguage = () => {
+    toggleLanguage()
   }
 
   const fontSize = (direction: string) => {
@@ -231,7 +244,8 @@ export default function Navigation({
       <div className="menu_wrapper">
         <div className="container">
           <div className="left_nav">
-            <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch Theme</ToggleTheme>
+            <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch theme</ToggleTheme>
+            <ToggleLanguage>Switch language</ToggleLanguage>
           </div>
           <nav className='quick_nav'>
             <Button onClick={() => linkTo(prevNext.prev)} disabled={!prevNext.prev}>{'❮'}</Button>
