@@ -264,13 +264,13 @@ export default function Navigation({
   useEffect(() => {
     if (typeof window !== 'undefined') {
       if (chapterId === undefined) {
-        setPrevNext({prev: null, next: chapters[0].id})
+        setPrevNext({prev: null, next: path + chapters[0].id})
       } else {
         const currentKey = chapters.reduce((prev, curr, i) => curr.id === chapterId ? i : prev, 0)
         const prevObj = currentKey > 0 ? chapters[currentKey - 1] : null
         const nextObj = currentKey < chapters.length ? chapters[currentKey + 1] : null
-        const prev = prevObj && prevObj.id ? prevObj.id : '/'
-        const next = nextObj && nextObj.id ? nextObj.id : null
+        const prev = prevObj && prevObj.id ? path + prevObj.id : path
+        const next = nextObj && nextObj.id ? path + nextObj.id : null
         setPrevNext({prev, next})
       }
     }
