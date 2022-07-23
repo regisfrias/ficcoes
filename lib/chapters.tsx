@@ -40,7 +40,7 @@ export function getSortedPostsData(dir: string) {
 }
 
 export function getAllPostIds(dir: string) {
-  const fileNames = fs.readdirSync(postsDirectory(dir))
+  const fileNames = fs.readdirSync(postsDirectory(dir)).filter( p => p.includes('.md'))
   return fileNames.map(fileName => {
     return {
       params: {
