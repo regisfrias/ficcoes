@@ -1,0 +1,24 @@
+---
+title: "The underground cities"
+date: "1979-01-04"
+---
+
+A visitor's first impression of New Constantinople is that it is a fairly common metropolis, with its comings and goings of busy teleologists, large buildings, and a lively street commerce. But a more careful look reveals that this city has no center and is a cultural and architectural patchwork. Furthermore, patches of the same type show up somewhat regularly within the city limits, as if each patch had been interrupted by the imposition of another, but resumes its course further on.
+
+New Constantinople, like most metropolises, is made up of several cities combined. What is unusual about it is the way these cities are combined: each has its own, separate underground layer, like shelves on a bookshelf. But these layers are not flat: they have each their own topology, shaped as wavy patterns like a hilly field, with spikes that reach to the surface and make up the patches that the visitors see when they walk around what they assume is the actual city — but is instead the center of all the underground cities.
+
+This also explains the numerous tunnels cutting through the hills. They do not merely go to the other side, but first and foremost they dive deep into the earth across the underground city. Unlike normal cities, in New Constantinople the tunnels are not the shortest way to the other side of a hill, but rather the longest. This makes it easy for one patch — that is, one layer — to communicate with the next.
+
+In fact, the only communication between the layers — and their citizens — is through the surface level. There everyone is allowed to freely exchange goods and ideas. But the underground cities are shut to each other. Their inhabitants who do not have access to the surface will never see people from different layers. And the majority of the population in New Constantinople is of that type. The administrators of the underground cities will issue a permission to those whose purpose or activities are deemed appropriate to the surface. A permission issued in any city is valid throughout the superficial territory, but the cities decide by themselves who is entitled to it — and each city has their own level of permissiveness and democratic standards.
+
+Travelling to another city's underground is a different matter altogether. For that citizens need a permission by both their domicile and the host cities. Very few are issued this type of permission and permanent ones are reserved for wealthy individuals, important bureaucrats and celebrities.
+
+A common hobby of the underground dwellers is to tell stories about the surface. They are mostly fictional but often contain truthful elements, captured from hearsay brought by the merchants who move goods between surface and underground. They are especially curious about the inhabitants of other underground cities, what they are like, what they do, if they are happier.
+
+New Constantinople was built in the first year of the Last Age to be the capital of The Protean Empire and it is a metaphor of its structure.
+
+If it is forbidden for some people to reach the surface of New Constantinople, it is not illegal to move around the Empire. Again only the appropriate set of permissions is required of the travellers. In practice though only a small portion of the population is capable of leaving the underground cities, as those trips tend to be very onerous and resource intensive. The citizens with access to the surface also tend to have easy access to the whole empire.
+
+Some underground dwellers have tried to reach the surface and other layers by the long route. They have travelled incredibly long distances across the Empire in order to arrive in New Constantinople from a different entrance. Most of these adventurers have perished in the vastness and hostility of the Empire. But it is told that some of them have succeeded and are now living in some layer where they do not belong. They will not, of course, reveal themselves to others, fearing what terrible consequences their illegal status will bring. Many like to imagine that their neighbor or someone they know is one such adventurer and secretly pretend to have done the same. In reality all the entrances have checkpoints and everyone entering or leaving is required to hold a valid permission. It does not matter where one came from, they all need a permission to where they are going.
+
+Foreign visitors are allowed on the surface and most do not stay long enough to find out about the underground layers. They are mainly composed of merchants, bringing goods to and from New Constantinople — uninterested in and oblivious to the worlds below them. It is also part of the underground mythology stories about righteous foreign merchants who fall in love with a beautiful underground dweller and they both flee to the better lands, where they can be happy ever after. This version might actually be true — albeit without the last bit.
