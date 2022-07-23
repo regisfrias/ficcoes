@@ -13,7 +13,7 @@ O principal arquiteto do movimento foi Evert Ward, um engenheiro sênior do depa
 
 A idéia lhe ocorreu—ou pelo menos assim reza a lenda—uma bela manhã, quando ele estava contemplando um módulo particularmente ineficiente d'O Sistema. Qual era exatamente o módulo é um fato que se perdeu nas brumas da história, mas o importante é que isso o incomodava. Ele tinha certeza que havia uma maneira melhor de fazer o que o módulo deveria fazer.
 
-Ele reuniu uma pequena equipe de entusiastas para trabalhar na tarefa em seu tempo livre. Era óbvio para ele desde o início que o problema principal era que o módulo fazia coisas demais. Ele era um proponente radical do paradigma Pequeno/Unívoco (ou simplesmente P/U), que ditava que cada módulo deveria ser tão pequeno quanto possível e fazer apenas uma coisa.
+Ele reuniu uma pequena equipe de entusiastas para trabalhar na tarefa em seu tempo livre. Era óbvio para ele, desde o início, que o problema principal era que o módulo fazia coisas demais. Ele era um proponente radical do paradigma Pequeno/Unívoco (ou simplesmente P/U), que ditava que cada módulo deveria ser tão pequeno quanto possível e fazer apenas uma coisa.
 
 A idéia supracitada surgiu um pouco mais tarde, após eles já haverem trabalhado por alguns meses. Era, de acordo com seus seguidores, uma consequência lógica do paradigma P/U e um aprimoramento milagroso dele. É tão simples de declarar quanto é difícil de compreender:
 
@@ -29,7 +29,7 @@ Quando a abordagem original provou-se irrealizável, o investimento e comprometi
 
 Com a gradual perda de vapor do movimento, muitos anos mais tarde, ele também começou a se esfacelar em escolas menores, com interpretacões concorrentes do evangelho do fundador. Uma delas decidiu que a implementação fora precária desde o incício e começou sua própria versão do módulo-raiz.
 
-Outra escola, que tornou-se muito influente por alguns anos, propôs a chamada interpretação Estética. Ela chegou a se tornar canônica, e afirmava que o objetivo principal da reestruturação d'O Sistema não era funcional, e sim estética. Como uma prova matemática, que precisa ser tão elegante quanto verdadeira para que seja inteiramente apreciada, também a estrutura d'O Sistema deveria ser tão bela quanto funcional para ser meritória de implementação.
+Outra escola, que tornou-se muito influente por alguns anos, propôs a chamada interpretação Estética. Ela chegou a tornar-se canônica, e afirmava que o objetivo principal da reestruturação d'O Sistema não era funcional, e sim estética. Como uma prova matemática, que precisa ser tão elegante quanto verdadeira para que seja inteiramente apreciada, também a estrutura d'O Sistema deveria ser tão bela quanto funcional para ser meritória de implementação.
 
 Essa implementação era mais do que sensual, era também muito pragmática, já que não tinha os requisitos austeros do fractalismo radical defendido por escolas anteriores. Com essa interpretação, eles poderiam direcionar os esforços à aparência de fractalidade e evitar os infinitos inconvenientes exigidos pelas escolas tradicionais. Foi um incrível avanço, que deu mais ímpeto ao movimento do que todos os esforços anteriores.
 
@@ -41,6 +41,6 @@ Aqueles que eram a favor, por seu turno, dividiam-se entre os que achavam que a 
 
 Os críticos do movimento os acusavem de ser uma elite mimada minoritária, que havia perdido contato com a realidade. Isso era uma grande fonte de tensão, que ajudou a desestabilizar a iniciativa.
 
-O outro grupo em favor do *establishment* explicou que a percepção de fracasso das outras pessoas justificava-se justamente pelo fato de a missão ainda não ter sido completada. Assim, eles insistiam na continuação das atividades. Alguns ainda estão defendendo isso hoje, embora essa seja visivelmente uma minoria impotente.
+O outro grupo em favor do *establishment* explicou que a percepção de fracasso das outras pessoas justificava-se justamente pelo fato de a missão ainda não ter sido completada. Assim, eles insistiam na continuação das atividades. Alguns ainda estão defendendo isso hoje, embora essa seja, visivelmente, uma minoria impotente.
 
 Mas eles insistiram por um tempo. Muito tempo, aliás. O Projeto já se tornara irrelevante para O Sistema, que sofrera diversas mudanças durante os anos do movimento que não podiam ser diretamente ligadas a ele. Isso torna a avaliação muito mais complicada. E também deixa margem para especulação em todos os lados.
