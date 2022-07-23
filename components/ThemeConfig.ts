@@ -66,8 +66,8 @@ export const GlobalStyles = createGlobalStyle<GlobalProps>`
     margin-inline-start: 5vw;
     margin-inline-end: 5vw;
     @media screen and (min-width: ${BREAKPOINTS.sm}px) {
-      margin-inline-start: ${SPACINGS.padding}px;
-      margin-inline-end: ${SPACINGS.padding}px;
+      margin-inline-start: ${SPACINGS.padding * 0.75}px;
+      margin-inline-end: ${SPACINGS.padding * 0.75}px;
     }
   }
 

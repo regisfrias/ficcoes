@@ -11,7 +11,7 @@ These subjects recurrently revolved around mathematics and geometry, despite his
 
 Despite the somewhat harsh tone his work was a celebration of humanity and its rich variety of arrangements and ideas — at least a celebration of that which he thought should be kept of it in a time of so much loss. He is writing during the last quarter of the twenty-first century, in a world so different from — yet so similar to — the one surrounding his literary heroes.
 
-Tension is one of these similarities. Both societies were torn like old fabric that is being held together by low-quality multicolored patches. Uncertainty was the other. Of course certainty is a rare occasion in the human condition. But in contrast to the Positivism of the ninetieth century and the Neo Positivism of the period between the end of the twentieth and beginning of the twenty-first, Professor Kylmät's epoch was especially worried about the near future.
+Tension is one of these similarities. Both societies were torn like old fabric that is being held together by low-quality multicolored patches. Uncertainty was the other. Of course certainty is a rare occasion in the human condition. But in contrast to the Positivism of the ninetieth century and the Neo Positivism of the beginning of the twenty-first century, Professor Kylmät's epoch was especially worried about the near future.
 
 But literary critique is not the scope of this little essay. For the curious, we publish here verbatim the work by Professor Basiléos Kylmät that triggered our attention:
 
