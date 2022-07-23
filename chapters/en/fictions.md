@@ -1,6 +1,7 @@
 ---
 title: "Fictions"
 date: "1979-01-07"
+translation: "ficcoes"
 ---
 
 Basiléos Kylmät woke up one day with an unquenchable desire to write fictions. Not that he was unhappy with his work at the New Alexandria University. Quite the opposite, actually. His research team had encountered a massive breakthrough and he had a lot of inspiring work to do. However, it is often the case that when people are at their busiest they also become more creative. This was, at any rate, the case with Professor Kylmät on that day.

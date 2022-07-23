@@ -1,6 +1,7 @@
 ---
 title: "Ficções"
 date: "1979-01-07"
+translations: "fictions"
 ---
 
 Basiléos Kylmät acordou um dia com um irresistível desejo de escrever ficções. Não que ele estivesse infeliz com seu trabalho na Universidade de Nova Alexandria. Bem o contrário, na verdade. Sua equipe de pesquisa havia feito uma descoberta importantíssima e ele tinha muito trabalho inspirador para fazer. No entanto, frequentemente, quando as pessoas estão mais ocupadas, elas também se tornam mais criativas. Este era, de qualquer forma, o caso do professor Kylmät naquele dia.

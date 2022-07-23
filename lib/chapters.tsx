@@ -24,7 +24,7 @@ export function getSortedPostsData(dir: string) {
       // Combine the data with the id
       return {
         id,
-        ...(matterResult.data as {title: string, date: string})
+        ...(matterResult.data as {title: string, date: string, translation?: string})
       }
     }
   }).filter( f => f)

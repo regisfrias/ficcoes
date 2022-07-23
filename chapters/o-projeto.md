@@ -1,6 +1,7 @@
 ---
 title: "O Projeto"
 date: "1979-01-06"
+translation: "the-project"
 ---
 
 Era a terceira grande onda de Eficientismo na história da humanidade. Muitas outras ainda viriam, cada uma merecedora de crônica diligente. Esta história, porém, é sobre o que ficou mundialmente conhecido como O Projeto.

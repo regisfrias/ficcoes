@@ -8,4 +8,5 @@ export type PostData = {
   title: string
   contentHtml: string
   id: string
+  translation?: string
 }

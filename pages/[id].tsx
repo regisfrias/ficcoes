@@ -11,6 +11,7 @@ export default function Post({
   toggleLanguage,
   theme,
   lang,
+  translation,
   setFontSize,
 }: {
   chapters: Chapters,
@@ -19,10 +20,20 @@ export default function Post({
   toggleLanguage: Function,
   lang: string,
   theme: string,
+  translation?: string,
   setFontSize: Function,
 }) {
   return (
-    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} theme={theme} lang={lang} setFontSize={setFontSize}>
+    <Layout
+      chapters={chapters}
+      title={postData.title}
+      toggleTheme={toggleTheme}
+      toggleLanguage={toggleLanguage}
+      translation={postData.translation}
+      theme={theme}
+      lang={lang}
+      setFontSize={setFontSize}
+    >
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )

@@ -1,6 +1,7 @@
 ---
 title: "The Project"
 date: "1979-01-06"
+translation: "o-projeto"
 ---
 
 It was the third big wave of Eficientism in human history. Many more would still come, all of which deserving of diligent chronicling. But this story is about what has become known worldwide as The Project.

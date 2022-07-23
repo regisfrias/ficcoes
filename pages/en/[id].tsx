@@ -22,7 +22,16 @@ export default function Post({
   setFontSize: Function,
 }) {
   return (
-    <Layout chapters={chapters} title={postData.title} toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} theme={theme} lang={lang} setFontSize={setFontSize}>
+    <Layout
+      chapters={chapters}
+      title={postData.title}
+      toggleTheme={toggleTheme}
+      toggleLanguage={toggleLanguage}
+      theme={theme}
+      lang={lang}
+      translation={postData.translation}
+      setFontSize={setFontSize}
+    >
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )

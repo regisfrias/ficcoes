@@ -25,6 +25,7 @@ export default function Layout({
   toggleTheme,
   toggleLanguage,
   lang,
+  translation,
   theme,
   setFontSize,
 }: {
@@ -34,12 +35,21 @@ export default function Layout({
   toggleTheme: Function,
   toggleLanguage: Function,
   lang: string,
+  translation?: string,
   theme: string,
   setFontSize: Function,
 }) {
   return(
     <>
-      <Navigation chapters={chapters} toggleTheme={toggleTheme} toggleLanguage={toggleLanguage} theme={theme} lang={lang} setFontSize={setFontSize} />
+      <Navigation
+        chapters={chapters}
+        toggleTheme={toggleTheme}
+        toggleLanguage={toggleLanguage}
+        theme={theme}
+        translation={translation}
+        lang={lang}
+        setFontSize={setFontSize}
+      />
       <Wrapper>
         <Title>{title}</Title>
         {children}

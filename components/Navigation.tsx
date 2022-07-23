@@ -222,6 +222,7 @@ export default function Navigation({
   toggleTheme,
   toggleLanguage,
   theme,
+  translation,
   lang,
   setFontSize
 }: {
@@ -230,6 +231,7 @@ export default function Navigation({
   toggleLanguage: Function,
   theme: string,
   lang: string,
+  translation?: string,
   setFontSize: Function
 }) {
   const router = useRouter()
@@ -252,7 +254,8 @@ export default function Navigation({
 
   const dispatchLanguage = () => {
     // lang here lags behind because it hasn't received this prop from parent when it just sent it, that's why it's flipped
-    const path = lang === 'en' ? '/' : '/en/'
+    const locale = lang === 'en' ? '/' : '/en/'
+    const path = translation ? locale + translation : locale
     router.push(path)
     toggleLanguage()
   }
