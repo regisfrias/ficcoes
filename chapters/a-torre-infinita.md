@@ -1,6 +1,7 @@
 ---
 title: "A torre infinita"
 date: "1978-12-31"
+translation: "the-infinite-tower"
 ---
 
 Babel era a mais alta torre jamais construída. Ela tinha 1.958 metros de altura e tinha 346 andares. Ou melhor, ela tinha apenas um andar, dependendo de como se conta. O motivo é que o prédio era uma espiral perfeita: cada célula, hospedeira de exatamente uma família, localizava-se um tanto mais alto que seu vizinho à esquerda e o mesmo tanto mais baixo que seu vizinho à direita, em degraus, de tal forma que havia uma cadeia contínua da primeira até a última. Mais tarde, historiadores propuseram que cada volta completa de trezentos e sessenta graus perfazia um andar, com a última célula do círculo ao lado da primeira do próximo andar, que se encontrava exatamente acima da primeira célula do andar anterior, porém um pouco mais próximo do centro da circunferência. Mas os babelenses não concebiam sua cidade dessa forma. Babel era, para seus moradores, um contínuo perfeito, em todos os sentidos.

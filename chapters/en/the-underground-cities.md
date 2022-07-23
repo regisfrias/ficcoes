@@ -1,6 +1,7 @@
 ---
 title: "The underground cities"
 date: "1979-01-04"
+translation: "as-cidades-subterraneas"
 ---
 
 A visitor's first impression of New Constantinople is that it is a fairly common metropolis, with its comings and goings of busy teleologists, large buildings, and a lively street commerce. But a more careful look reveals that this city has no center and is a cultural and architectural patchwork. Furthermore, patches of the same type show up somewhat regularly within the city limits, as if each patch had been interrupted by the imposition of another, but resumes its course further on.

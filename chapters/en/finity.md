@@ -1,6 +1,7 @@
 ---
 title: "Finity"
 date: "1979-01-02"
+translation: "finitude"
 ---
 
 The Finity Age began with the last number. This is not a manner of speech, the last number is indeed literally the last number. Up until the second half of the 21st century, humans believed numbers extended into infinity. It is understandable. Of course! Whichever number you can think of, it's easy to add one to it and you get a bigger number. Add one to that one and you get an even bigger one. Repeat the process indefinitely and you can do this forever, each number bigger than the previous. You would never reach the end.

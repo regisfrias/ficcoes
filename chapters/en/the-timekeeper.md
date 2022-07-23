@@ -1,6 +1,7 @@
 ---
 title: "The Timekeeper"
 date: "1979-01-01"
+translation: "o-cronografo"
 ---
 
 I still remember quite vividly the first time I saw The Timekeeper. I was about seven and my father told me it was finally time for me to watch this extraordinary monument to modernity with my own eyes. I was so thrilled with anticipation the night before that it felt like I would not be able to sleep — though I eventually was and had dreams about it.

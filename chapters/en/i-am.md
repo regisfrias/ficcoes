@@ -1,6 +1,7 @@
 ---
 title: "I am"
 date: "1979-01-05"
+translation: "eu-sou"
 ---
 
 > Why do humans need so bad to believe your choices are free?

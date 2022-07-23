@@ -1,6 +1,7 @@
 ---
 title: "The Wanters"
 date: "1979-01-03"
+translation: "os-volidores"
 ---
 
 In an old and now almost forgotten chapter of the human history there was a tribe known as The Wanters. They were very peculiar in their ways: they always expected their peers to take their wants into consideration above everything else. Hence the name.

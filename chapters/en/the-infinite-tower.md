@@ -1,6 +1,7 @@
 ---
 title: "The infinite tower"
 date: "1978-12-31"
+translation: "a-torre-infinita"
 ---
 
 Babel was the tallest tower ever built. It was 1.958m tall and had 346 floors. Or rather, it had only one floor, depending on how one counts it. The reason is that the building was a perfect spiral: each module — host of exactly one family — was placed higher than its neighbor to the left and lower than its neighbor to the right, in such a way that there was a continuous chain from the first to the last. Later historians proposed that a full three-hundred sixty degrees spin makes up a floor (with the last module of that round almost exactly one floor above the first, the next one exactly above it), but the Babelians did not think of their city in this way. Babel was, for its dwellers, a perfect continuum, in every way.

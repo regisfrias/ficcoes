@@ -1,6 +1,7 @@
 ---
 title: "O Cronógrafo"
 date: "1979-01-01"
+translation: "the-timekeeper"
 ---
 
 Eu ainda me lembro vividamente da primeira vez em que vi O Cronógrafo. Eu tinha por volta de sete anos e meu pai contou-me que era finalmente a hora de eu ver com meus próprios olhos esse extraordinário monumento à modernidade. Eu estava tão emocionada com a expectativa na noite anterior que eu achei que não seria capaz de dormir—apesar de ter sido capaz e ter tido sonhos sobre ele.

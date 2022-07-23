@@ -1,6 +1,7 @@
 ---
 title: "Eu sou"
 date: "1979-01-05"
+translation: "i-am"
 ---
 
 > Por que os seres humanos precisam tanto acreditar que suas escolhas são livres?
