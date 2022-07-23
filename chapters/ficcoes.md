@@ -5,11 +5,11 @@ date: "1979-01-07"
 
 Basiléos Kylmät acordou um dia com um irresistível desejo de escrever ficções. Não que ele estivesse infeliz com seu trabalho na Universidade de Nova Alexandria. Bem o contrário, na verdade. Sua equipe de pesquisa havia feito uma descoberta importantíssima e ele tinha muito trabalho inspirador para fazer. No entanto, frequentemente, quando as pessoas estão mais ocupadas, elas também se tornam mais criativas. Este era, de qualquer forma, o caso do professor Kylmät naquele dia.
 
-Seu trabalho ficcional se mostrou notável, com uma alta dose de influência dos grandes autores de literatura fantástica do século XX. Ele compartilhava com eles—ou melhor, aprendeu com eles—uma obsessão por descrições de assuntos aparentemente estranhos ao tema.
+Seu trabalho ficcional se mostrou notável, com uma alta dose de influência dos grandes autores de literatura fantástica do século XX. Ele compartilhava com eles—ou melhor, aprendeu com eles—uma obsessão por descrições de assuntos aparentemente estranhos ao tema. Ou seja, sua obra frequentemente lidava com o entorno da humanidade. Ao menos na superfície.
 
 Esses assuntos recorrentemente orbitavam em torno da matemática e da geometria, apesar da sua absoluta falta de conhecimento nessas áreas; comentário social, com o que ele tinha alguma familiaridade, por meio de seu trabalho (ainda que nada que lhe conferisse autoridade no assunto); e história, essa sim uma área estreitamente relacionada à sua ocupação profissional.
 
-Apesar do tom um tanto áspero, sua obra era uma celebração da humanidade e de sua rica variedade de arranjos e idéias—ao menos uma celebração daquilo que, na sua opinião, deveria ser mantido em um tempo de tanta perda. Ele escrevia durante o último quartel do século XXI, em um mundo muito diferente do mundo que cercava seus heróis literários, ainda que muito semelhante.
+Apesar do tom um tanto áspero, sua obra era uma celebração da humanidade e de sua rica variedade de arranjos e idéias—ao menos uma celebração daquilo que, na sua opinião, deveria ser mantido em um tempo de tanta perda. Ele escrevia durante o último quartel do século XXI, em um mundo muito diferente do mundo que cercava seus heróis literários—ainda que muito semelhante.
 
 Tensão é uma dessas semelhanças. Ambas as sociedades foram rasgadas como um tecido velho feito de remendos multicoloridos de baixa qualidade. Incerteza era outra. É claro que certeza é uma ocasião rara na condição humana. Mas em contraste com o Positivismo do século XIX e o Neo-Positivismo do início do XXI, a época do Professor Kylmät estava especialmente preocupada com o futuro próximo.
 
