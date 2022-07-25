@@ -17,7 +17,7 @@ export default function Cover({lang}: {lang: string}) {
     <Wrapper>
       <Link href="https://regisfrias.com"><a><em>Régis Frias</em></a></Link><br /><em>2022</em>
       <P>{ lang === 'pt' ?
-        'Uma série de contos ligeiramente inspirada em (ou, mais precisamente, surrupiada de) J. L. Borges.'
+        'Uma série de contos ligeiramente inspirada por (ou, mais precisamente, surrupiada de) J. L. Borges.'
       :
         'A series of short stories slightly inspired by (or more precisely stolen from) J. L. Borges.'
       }</P>
