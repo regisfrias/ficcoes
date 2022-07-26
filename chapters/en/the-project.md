@@ -10,7 +10,7 @@ It all started a few decades ago. The System—the most comprehensive enterprise
 
 For some people, though, the fact that it was not perfect was troublesome. Or rather, not the fact that it was imperfect per se, but the fact that they could envision improvement in its efficiency—the amount and extent of which was lively disputed, of course. This became a multi-decade project that employed millions of people and used up industrial amounts of resources.
 
-The main architect of the movement was Evert Ward, a senior engineer with the quality control department of The Sistem. He was already famous for his obsession with efficiency and was highly respected by all who had any, however faint, interest on the subject.
+The main architect of the movement was Evert Ward, a senior engineer with the quality control department of The System. He was already famous for his obsession with efficiency and was highly respected by all who had any, however faint, interest on the subject.
 
 The idea struck him—or so the legend goes—one fine morning, when he was contemplating a particularly inefficient module of The System. Which exact module it was has been lost in the fog of history, but what is important is that it troubled him. He was sure there was a better way of doing what the module was supposed to do.
 
@@ -30,7 +30,7 @@ By the time the original approach proved unrealizable, the investment and commit
 
 With the gradual loss of steam in the movement—several years later—it also started to break down into smaller schools with competing interpretations of the founder's gospel. One of them decided that the whole thing was poorly implemented from the beginning and started their own version of the root-module.
 
-Another school, which became very influential for a few years, proposed the Aesthetical interpretation. It went as far as becoming canonical and it stated that the main goal of The System overhaul was not functional, but aesthetic. Like a mathematical proof that needs to be as elegant as truthful to be fully appreciated, so should the structure of The System be as beautiful as functional to be worthy of implementation.
+Another school, which became very influential for a few years, proposed the Aesthetic interpretation. It went as far as becoming canonical and it stated that the main goal of The System overhaul was not functional, but aesthetic. Like a mathematical proof that needs to be as elegant as truthful to be fully appreciated, so should the structure of The System be as beautiful as functional to be worthy of implementation.
 
 This interpretation was more than sensual, it was also very pragmatic as it didn't have the austere requirements of the radical fractalism advocated by previous schools. With this interpretation, they could focus their efforts on the appearance of fractality instead and avoid the inconvenient infinities required by the traditional schools. It was a breakthrough that gave the movement more impetus than all earlier efforts.
 

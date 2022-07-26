@@ -24,9 +24,9 @@ It is a breathtaking ballet of colors and sounds. The material is almost complet
 
 When we get to the center we can take the elevator. It is a half an hour, three kilometer upward trip in which every second is magical.
 
-But the philosophical purpose of the enterprise should be stated with the same passion and seriousness as its engineering wonders. All activities in our society are timed. It is no exageration to say that time is the substrate upon which the existence of our civilization rests. So much so that it is speculated that the existence of The Timekeeper precedes our own. This is further evidenced by the complete absence of a beginning in its known history — that is not the case for us, since we love our own history.
+But the philosophical purpose of the enterprise should be stated with the same passion and seriousness as its engineering wonders. All activities in our society are timed. It is no exaggeration to say that time is the substrate upon which the existence of our civilization rests. So much so that it is speculated that the existence of The Timekeeper precedes our own. This is further evidenced by the complete absence of a beginning in its known history — that is not the case for us, since we love our own history.
 
-Speculations apart, what is crucial is that time is key. I don't expect my children to understand all the philosophical consequences of this, but at least they should know that we work for more than aesthetic fulfilment.
+Speculations apart, what is crucial is that time is key. I don't expect my children to understand all the philosophical consequences of this, but at least they should know that we work for more than aesthetic fulfillment.
 
 All of this — I will tell them – does not mean The Timekeeper is perfect, by all means. For it to be ever more precise we need to build ever smaller wheels. For the better measurement of large-scale time spans we need an ever slower main wheel. And for all that we need new theories, technologies and tools. Many are engaged in this never ending job. And many more are needed.
 

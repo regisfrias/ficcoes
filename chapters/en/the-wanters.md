@@ -12,11 +12,11 @@ For example, in one occasion, a certain tribe member felt hungry and wished for 
 
 At first, Dr. Moledor thought this was an extreme coincidence, but he then started to see this happen again and again. Every time someone wished for something, that something was realized almost immediately afterwards.
 
-When Dr. Moledor's reports started arriving at the metropolis, other scientists had their curiosity triggered. Mathematician Island Meadow was the first to arrive with a crew of doctoral students and other enthusiasts. They carefully gathered all data they could from these events and analysed them diligently over a period of twenty-five years — they themselves bearers of unusual luck for research funds.
+When Dr. Moledor's reports started arriving at the metropolis, other scientists had their curiosity triggered. Mathematician Island Meadow was the first to arrive with a crew of doctoral students and other enthusiasts. They carefully gathered all data they could from these events and analyzed them diligently over a period of twenty-five years — they themselves bearers of unusual luck for research funds.
 
 Their conclusion was that whatever was causing the wishes to be realized, the data now pointed to a slow decay. The plotted numbers from the studied period seemed to draw a section of a bell curve in the beginning of its second half.
 
-Meadow's team hypothezised that the events had become more and more frequent over the previous one hundred years or so. The growth followed a bell curve, which had peaked around the time the mathematicians arrived there. If this was the case, it meant that the current generation of Wanters had lived most of their lives in this era of unimaginably abundant luck.
+Meadow's team hypothesized that the events had become more and more frequent over the previous one hundred years or so. The growth followed a bell curve, which had peaked around the time the mathematicians arrived there. If this was the case, it meant that the current generation of Wanters had lived most of their lives in this era of unimaginably abundant luck.
 
 This luck, although incredibly rare is nevertheless mathematically possible. The Wanters themselves did not give any supernatural explanation to the coincidences. They believed that this is how reality behaves. For them this was as much a law of nature as gravity or thermodynamics.
 
