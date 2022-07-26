@@ -34,7 +34,7 @@ Outra escola, que tornou-se muito influente por alguns anos, propôs a chamada i
 
 Essa implementação era mais do que sensual, era também muito pragmática, já que não tinha os requisitos austeros do fractalismo radical defendido por escolas anteriores. Com essa interpretação, eles poderiam direcionar os esforços à aparência de fractalidade e evitar os infinitos inconvenientes exigidos pelas escolas tradicionais. Foi um incrível avanço, que deu mais ímpeto ao movimento do que todos os esforços anteriores.
 
-Mas então a realidade se impôs. Os seguidores dessa escola descobriram que apenas simular aparência era indistinguível da era pré-Projeto. E isso foi, para quase todos, ao menos nos altos escalões, anathema.
+Mas então a realidade se impôs. Os seguidores dessa escola descobriram que apenas simular aparência era indistinguível da era pré-Projeto. E isso foi, para quase todos, ao menos nos altos escalões, anátema.
 
 Não ficou claro se O Projeto chegou a lograr, pois não houve consenso em relação ao significado dos resultados. Aqueles que eram contra a mudança alegavam que a empresa foi um desastre—citando a impossibilidade inerente à ideia central e o fato de que nem O Sistema nem a sociedade como um todo haviam se tornado melhor com os esforços.
 
