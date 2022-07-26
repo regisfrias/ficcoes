@@ -87,6 +87,9 @@ const Wrapper = styled.div`
 `
 
 const ToggleLanguage = styled.button`
+  @media screen and (max-width: ${BREAKPOINTS.sm}px) {
+    font-size: 1px;
+  }
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
   margin-left: ${SPACINGS.padding_sm}px;
@@ -124,17 +127,20 @@ const ToggleLanguage = styled.button`
 `
 
 const ToggleTheme = styled.button`
+  @media screen and (max-width: ${BREAKPOINTS.sm}px) {
+    font-size: 1px;
+  }
   width: ${DIMENSIONS.button_sm}px;
   height: ${DIMENSIONS.button_sm}px;
-  border: ${DIMENSIONS.border_thick}px solid ${COLORS.black};
+  border: ${DIMENSIONS.border_thick}px solid ${({ theme }) => theme.text };
   border-radius: 100%;
-  background-color: ${COLORS.white};
+  background-color: ${({ theme }) => theme.background };
   color: transparent;
   overflow: hidden;
   bottom: ${(DIMENSIONS.button_lg - DIMENSIONS.button_sm) / 2}px;
   left: ${SPACINGS.padding_sm}px;
   z-index: 1;
-  transition: transform ${SPEEDS.fast}s, opacity ${SPEEDS.fast}s;
+  transition: transform ${SPEEDS.fast}s;
   transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
   cursor: pointer;
 
@@ -142,7 +148,7 @@ const ToggleTheme = styled.button`
     content: '';
     display: block;
     border-radius: 100%;
-    background-color: ${COLORS.black};
+    background-color: ${({ theme }) => theme.text };
     width: ${DIMENSIONS.button_sm - DIMENSIONS.border_thick * 4}px;
     height: ${DIMENSIONS.button_sm - DIMENSIONS.border_thick * 4}px;
     position: absolute;
@@ -152,9 +158,10 @@ const ToggleTheme = styled.button`
   &:after {
     content: '';
     display: block;
+    border-radius: ${DIMENSIONS.button_sm / 2}px 0 0 ${DIMENSIONS.button_sm / 2}px;
     width: ${DIMENSIONS.button_sm / 2 - DIMENSIONS.border_thick}px;
     height: 100%;
-    background-color: ${COLORS.white};
+    background-color: ${({ theme }) => theme.background };
     position: absolute;
     top: 0;
     left: 0;
@@ -284,7 +291,7 @@ export default function Navigation({
       <div className="menu_wrapper">
         <div className="container">
           <div className="left_nav">
-            <ToggleTheme onClick={() => dispatchTheme()} theme={theme}>Switch theme</ToggleTheme>
+            <ToggleTheme onClick={() => dispatchTheme()}>Switch theme</ToggleTheme>
             <ToggleLanguage onClick={() => { dispatchLanguage()}}>{lang}</ToggleLanguage>
           </div>
           <nav className='quick_nav'>
