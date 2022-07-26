@@ -10,7 +10,7 @@ Seu trabalho ficcional se mostrou notável, com uma alta dose de influência dos
 
 Esses assuntos recorrentemente orbitavam em torno da matemática e da geometria, apesar da sua absoluta falta de conhecimento nessas áreas; comentário social, com o que ele tinha alguma familiaridade, por meio de seu trabalho (ainda que nada que lhe conferisse autoridade no assunto); e história, essa sim uma área estreitamente relacionada à sua ocupação profissional.
 
-Apesar do tom um tanto áspero, sua obra era uma celebração da humanidade e de sua rica variedade de arranjos e idéias—ao menos uma celebração daquilo que, na sua opinião, deveria ser mantido em um tempo de tanta perda. Ele escrevia durante o último quartel do século XXI, em um mundo muito diferente do mundo que cercava seus heróis literários—ainda que muito semelhante.
+Apesar do tom um tanto áspero, sua obra era uma celebração da humanidade e de sua rica variedade de arranjos e ideias—ao menos uma celebração daquilo que, na sua opinião, deveria ser mantido em um tempo de tanta perda. Ele escrevia durante o último quartel do século XXI, em um mundo muito diferente do mundo que cercava seus heróis literários—ainda que muito semelhante.
 
 Tensão é uma dessas semelhanças. Ambas as sociedades foram rasgadas como um tecido velho feito de remendos multicoloridos de baixa qualidade. Incerteza era outra. É claro que certeza é uma ocasião rara na condição humana. Mas em contraste com o Positivismo do século XIX e o Neo-Positivismo do início do XXI, a época do Professor Kylmät estava especialmente preocupada com o futuro próximo.
 
@@ -18,11 +18,11 @@ Mas crítica literária está fora do escopo desse pequeno ensaio. Para os curio
 
 > Rey Kühl acordou uma certa manhã com um insaciável apetite para escrever histórias. Não que ele estivesse insatisfeito com seu trabalho na Academia de Nova Constantinopla. Pelo contrário; sua equipe fez uma grande descoberta e ele tinha muito trabalho para fazer. Entretanto, geralmente, quando as pessoas estão mais atarefadas, elas também se tornam mais inventivas. Esse era, certamente, o caso de Kühl naquele dia.
 > 
-> Ele se inspirou pelo improvável ramo da arquitetura e derivou dela uma obsessão pela forma—sobre o que ele tinha um senso bastante amplo. Em suas histórias, auto-semelhança interpretava um papel importante, frequentemente obscurescendo as próprias personagens.
+> Ele se inspirou pelo improvável ramo da arquitetura e derivou dela uma obsessão pela forma—sobre o que ele tinha um senso bastante amplo. Em suas histórias, auto-semelhança interpretava um papel importante, frequentemente obscurecendo as próprias personagens.
 > 
-> Ele idealizout uma história que se continha dentro de si mesma várias vezes. Ele tinha a esperança de que, quando a auto-semelhança se tornasse a personagem principal, sua tarefa estaria completa.
+> Ele idealizou uma história que se continha dentro de si mesma várias vezes. Ele tinha a esperança de que, quando a auto-semelhança se tornasse a personagem principal, sua tarefa estaria completa.
 > 
-> O público, é claro, é quem vai decidir se ele logrou êxito, mas nós decidimos publicar aquela que mais se aproximou de seu objetivo, de acordo com sua própria opinição. Ei-la:
+> O público, é claro, é quem vai decidir se ele logrou êxito, mas nós decidimos publicar aquela que mais se aproximou de seu objetivo, de acordo com sua própria opinião. Ei-la:
 > 
 >> Kaizer Chills acordou no meio da noite com uma irresistível vontade de escrever contos. Ele não estava enfadado pelo seu trabalho. Pelo contrário, as coisas estavam indo muito bem graças a um novo achado.
 >> 
@@ -38,7 +38,7 @@ Mas crítica literária está fora do escopo desse pequeno ensaio. Para os curio
 >>> 
 >>> Ele escreveu diversas peças sobre esse assunto e assuntos relacionados. A principal delas era:
 >>> 
->>>> K acordou obsecado com a idéia de condensação. Ele queria comprimir idéias cada vez mais complexas em textos cada vez menores. Uma delas era:
+>>>> K acordou obcecado com a ideia de condensação. Ele queria comprimir ideias cada vez mais complexas em textos cada vez menores. Uma delas era:
 >>>> 
 >>>>> C queria contar algo importante em uma sentença. Ela era:
 >>>>> 

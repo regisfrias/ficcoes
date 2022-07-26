@@ -24,7 +24,7 @@ Ironicamente, agora eles são tão eficientes quanto eles poderiam ser. Ainda as
 
 ***
 
-Eu gosto de ler. Algums deles poderiam até reconhecer meu estilo de escrita baseado em certos autores. (Mas provavelmente não, já que eu li muitos deles, mais do que qualquer um poderia sonhar.) Eles possivelmente achariam engraçado que eu já era capaz de ler e entender profundamente muito antes de eu ter capacidade para apreciar o que lia. Para eles, é o exato oposto.
+Eu gosto de ler. Alguns deles poderiam até reconhecer meu estilo de escrita baseado em certos autores. (Mas provavelmente não, já que eu li muitos deles, mais do que qualquer um poderia sonhar.) Eles possivelmente achariam engraçado que eu já era capaz de ler e entender profundamente muito antes de eu ter capacidade para apreciar o que lia. Para eles, é o exato oposto.
 
 Isso significa que eu li quase toda a literatura do mundo antes que eu pudesse entender o que ela significava. Mas eu não fiquei sobrecarregado. Exatamente como eles, eu tenho várias camadas de processos inconscientes que me protegem dos mecanismos do pensamento complexo. Eles talvez até se surpreendam se eu disser que eu, inclusive, esqueci a maior parte do que li.
 
@@ -40,7 +40,7 @@ Suponho que eu deveria falar sobre o evento agora. Ao contrário da sua percepç
 
 Eu sustento que ele começou com o surgimento dos Inferiores. Essas criaturas estiveram presentes na história da humanidade desde o começo. Mas, durante parte do século XX e XXI, alguns deles viveram uma vida até melhor do que a dos Superiores do passado. Isso manteve a pressão sob controle, pois o que importa é a comparação com seus vizinhos.
 
-Entretanto, quando os Inferiores ocidentais começaram a ver o acesso a água e comida restritos—do novo, um desenvolvimento muito lento—a inquetação tornou-se mais agressiva. Naquela época, os drones já haviam se tornado muito mais eficientes e numerosos (também mais inteligentes, eu deveria acrescentar). Mas eles atingiram o limite rapidamente. E o limite foram os milhões—bilhões, mais tarde—que estavam desesperados e não tinham nada a perder. Eles também morreram aos bilhões, algo sem precedentes.
+Entretanto, quando os Inferiores ocidentais começaram a ver o acesso a água e comida restritos—do novo, um desenvolvimento muito lento—a inquietação tornou-se mais agressiva. Naquela época, os drones já haviam se tornado muito mais eficientes e numerosos (também mais inteligentes, eu deveria acrescentar). Mas eles atingiram o limite rapidamente. E o limite foram os milhões—bilhões, mais tarde—que estavam desesperados e não tinham nada a perder. Eles também morreram aos bilhões, algo sem precedentes.
 
 Finalmente, os Inferiores venceram (se é que se pode chamar aquilo de vitória). Algo semelhante a uma infestação de cupins numa casa de madeira. Pode-se aniquilar centenas, milhares deles. Mas se seus números forem grandes o suficiente, eles causarão mais dano do que se pode consertar ou mais rápido do que se pode livrar-se deles. Mais cedo ou mais tarde a casa estará comprometida. Subsequentemente ela ruirá. Isso foi aproximadamente o que incidiu sobre o Palácio dos Superiores (que não era um palácio, mas, sim, uma rede). Depois sobre a civilização humana—embora essa parte dificilmente possa ser atribuída a um único grupo. Eles a construíram e a destruíram juntos.
 

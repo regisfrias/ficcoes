@@ -12,9 +12,9 @@ Eles pressupunham que, devido à matemática ser abstrata, pura, poder-se-ia est
 
 E assim também se deu com os números naturais. Acreditou-se, por muito tempo, que eles não tinham fim. Mas um fim foi encontrado para eles.
 
-A idéia foi proposta inicialmente por John Creek, um matemático extremamente bem-sucedido e respeitado, na década de 2060. Ele começou tomando seriamente a idéia de que nimguém havia de fato contado todos os números até o infinito. Esse pensamento, apesar de pueril, demonstrou-se bastante frutífero.
+A ideia foi proposta inicialmente por John Creek, um matemático extremamente bem-sucedido e respeitado, na década de 2060. Ele começou tomando seriamente a ideia de que ninguém havia de fato contado todos os números até o infinito. Esse pensamento, apesar de pueril, demonstrou-se bastante frutífero.
 
-Até a primeira metade do século XXI, a humanidade tinha poder computacional muito limitado. Mas, após a descoberta dos computadores meta-analógicos, houve uma explosão de descobertas científicas e matemáticas. Eles tinham agora, pensava-se, poder computacional ilimitado. Isso os permitiu começar a experimentar idéias anteriormente consideradas tolas. Mas agora não havia limites—note-se a ironia—de quantas idéias eles poderiam experimentar.
+Até a primeira metade do século XXI, a humanidade tinha poder computacional muito limitado. Mas, após a descoberta dos computadores meta-analógicos, houve uma explosão de descobertas científicas e matemáticas. Eles tinham agora, pensava-se, poder computacional ilimitado. Isso os permitiu começar a experimentar ideias anteriormente consideradas tolas. Mas agora não havia limites—note-se a ironia—de quantas ideias eles poderiam experimentar.
 
 E eles experimentaram.
 
