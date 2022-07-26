@@ -126,7 +126,7 @@ const ToggleLanguage = styled.button`
   }
 `
 
-const ToggleTheme = styled.button`
+const ToggleTheme = styled.button<{theTheme: any}>`
   @media screen and (max-width: ${BREAKPOINTS.sm}px) {
     font-size: 1px;
   }
@@ -141,7 +141,7 @@ const ToggleTheme = styled.button`
   left: ${SPACINGS.padding_sm}px;
   z-index: 1;
   transition: transform ${SPEEDS.fast}s;
-  transform: rotate(${(props )=> props.theme === 'dark' ? '180deg' : '0deg'});
+  transform: rotate(${(props )=> props.theTheme === 'dark' ? '180deg' : '0deg'});
   cursor: pointer;
 
   &:before {
@@ -291,7 +291,7 @@ export default function Navigation({
       <div className="menu_wrapper">
         <div className="container">
           <div className="left_nav">
-            <ToggleTheme onClick={() => dispatchTheme()}>Switch theme</ToggleTheme>
+            <ToggleTheme onClick={() => dispatchTheme()} theTheme={theme}>Switch theme</ToggleTheme>
             <ToggleLanguage onClick={() => { dispatchLanguage()}}>{lang}</ToggleLanguage>
           </div>
           <nav className='quick_nav'>
