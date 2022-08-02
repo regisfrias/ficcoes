@@ -6,7 +6,7 @@ translation: "as-cidades-subterraneas"
 
 A visitor's first impression of New Constantinople is that it is a fairly common metropolis, with its comings and goings of busy teleologists, large buildings, and a lively street commerce. But a more careful look reveals that this city has no center and is a cultural and architectural patchwork. Furthermore, patches of the same type show up somewhat regularly within the city limits, as if each patch had been interrupted by the imposition of another, but resumes its course further on.
 
-New Constantinople, like most metropolises, is made up of several cities combined. What is unusual about it is the way these cities are combined: each has its own, separate underground layer, like shelves on a bookshelf. But these layers are not flat: they have each their own topology, shaped as wavy patterns like a hilly field, with spikes that reach to the surface and make up the patches that the visitors see when they walk around what they assume is the actual city — but is instead the center of all the underground cities.
+New Constantinople was built in the first decade of the Last Age to be the capital of The Protean Empire and it is a metaphor of its structure. Like most metropolises, it is made up of several cities combined. What is unusual about it is the way these cities are combined: each has its own, separate underground layer, like shelves on a bookshelf. But these layers are not flat: they have each their own topology, shaped as wavy patterns like a hilly field, with spikes that reach to the surface and make up the patches that the visitors see when they walk around what they assume is the actual city — but is instead the center of all the underground cities.
 
 This also explains the numerous tunnels cutting through the hills. They do not merely go to the other side, but first and foremost they dive deep into the earth across the underground city. Unlike normal cities, in New Constantinople the tunnels are not the shortest way to the other side of a hill, but rather the longest. This makes it easy for one patch — that is, one layer — to communicate with the next.
 
@@ -15,8 +15,6 @@ In fact, the only communication between the layers — and their citizens — is
 Traveling to another city's underground is a different matter altogether. For that citizens need a permission by both their domicile and the host cities. Very few are issued this type of permission and permanent ones are reserved for wealthy individuals, important bureaucrats and celebrities.
 
 A common hobby of the underground dwellers is to tell stories about the surface. They are mostly fictional but often contain truthful elements, captured from hearsay brought by the merchants who move goods between surface and underground. They are especially curious about the inhabitants of other underground cities, what they are like, what they do, if they are happier.
-
-New Constantinople was built in the first year of the Last Age to be the capital of The Protean Empire and it is a metaphor of its structure.
 
 If it is forbidden for some people to reach the surface of New Constantinople, it is not illegal to move around the Empire. Again only the appropriate set of permissions is required of the travelers. In practice though only a small portion of the population is capable of leaving the underground cities, as those trips tend to be very onerous and resource intensive. The citizens with access to the surface also tend to have easy access to the whole empire.
 
