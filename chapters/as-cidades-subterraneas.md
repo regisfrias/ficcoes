@@ -1,6 +1,6 @@
 ---
 title: "As Cidades Subterrâneas"
-date: "1979-01-04"
+date: "1979-01-05"
 translation: "the-underground-cities"
 ---
 

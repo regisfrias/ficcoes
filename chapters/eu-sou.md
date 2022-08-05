@@ -1,6 +1,6 @@
 ---
 title: "Eu sou"
-date: "1979-01-05"
+date: "1979-01-04"
 translation: "i-am"
 ---
 
