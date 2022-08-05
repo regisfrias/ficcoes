@@ -14,7 +14,7 @@ const P = styled.p`
 export default function Cover({lang}: {lang: string}) {
   return(
     <Wrapper>
-      <Link href="https://regisfrias.com"><a><em>Régis Frias</em></a></Link><br /><em>2022</em>
+      <em><Link href="https://regisfrias.com"><a>Régis Frias</a></Link></em><br /><em>2022</em>
       <P>{ lang === 'pt' ?
         'Uma série de contos ficcionais pesadamente inspirada por—poder-se-ia dizer surrupiada de—J. L. Borges.'
       :
