@@ -1,3 +1,11 @@
+# Fictions / Ficções
+
+A series of short stories heavily inspired by—one could say stolen from—J. L. Borges.
+
+Uma série de contos ficcionais pesadamente inspirada por—poder-se-ia dizer surrupiada de—Jorge Luis Borges.
+
+# Original readme stuff
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
