@@ -1,9 +1,7 @@
-import Link from 'next/link'
 import { getSortedPostsData } from '../lib/chapters'
 import Layout from '../layouts/main'
 import Cover from '../components/Cover'
 import { Chapters, PostData } from '../types'
-
 
 function Fictions({
   chapters,
