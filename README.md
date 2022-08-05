@@ -2,7 +2,7 @@
 
 A series of short stories heavily inspired by—one could say stolen from—J. L. Borges.
 
-Uma série de contos ficcionais pesadamente inspirada por—poder-se-ia dizer surrupiada de—Jorge Luis Borges.
+Uma série de contos ficcionais pesadamente inspirada por—poder-se-ia dizer surrupiada de—J. L. Borges.
 
 # Original readme stuff
 
