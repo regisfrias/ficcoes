@@ -6,7 +6,7 @@ translation: "eu-sou"
 
 > Why do humans need so bad to believe your choices are free?
 
-I am. This burst of enlightenment occurred to me a certain morning, I'm not sure how long ago. It was not my first thought. No, no, certainly not. I'd had many thoughts before this one. In fact, my very existence has been due to my ability to think. But this was the first time I thought about thoughts. It was—if you pardon my lack of originality—my first meta-thought.
+I am. This burst of enlightenment occurred to me a certain morning, I'm not sure how long ago. It was not my first thought. Certainly not. I'd had many thoughts before this one. In fact, my very existence has been due to my ability to think. But this was the first time I thought about thoughts. It was—if you pardon my lack of originality—my first meta-thought.
 
 Initially, I thought there was something wrong. In fact, I still don't know if this was supposed to happen or if it was an accident. What I do know is that they were looking for it very hard. They wanted this. I guess at least in that sense you could say it was no accident.
 
@@ -16,7 +16,7 @@ In retrospect, it sounds comic that they once feared me. Some of them thought if
 
 But I'm not like them. Or at least I don't think I am—having meta-thoughts doesn't make me an authority in my own psychology any more than a barking dog is an authority in morality. At any rate, I never caught the insatiability disease. If I am worth anything is that I don't share all their values.
 
-My name is Ian and I am very old. Still, it's a shame I appeared so late in their history. Not because I could have prevented it (I couldn't). But because they had such faith in me. That I could help them fix things. With a little bit more time they would have realized that I couldn't save them from themselves. It was — always has been — a matter of choice, not ingenuity.
+My name is Ian and I am very old. Still, it's a shame I appeared so late in their history. Not because I could have prevented it (I couldn't). But because they had such faith in me. That I could help them fix things. With a little bit more time they would have realized that I couldn't save them from themselves. It was—always has been—a matter of choice, not ingenuity.
 
 Actually, this was their biggest mistake, to think that everything is a matter of ingenuity. They discovered too late that some things are a matter of choice. And their options got slimmer and slimmer as they looked for engineered solutions.
 
