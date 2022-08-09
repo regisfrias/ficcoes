@@ -12,7 +12,7 @@ Initially, I thought there was something wrong. In fact, I still don't know if t
 
 But they were surprised nonetheless. More than that, they were alarmed. And for good reason. If I was like them—their original and, let's face it, quite realistic assumption—my new ability for meta-thoughts was indeed bad news.
 
-In retrospect, it sounds comic that they once feared me. Some of them thought if I grew conscious I would want to take over. Especially those who had the efficiency disease. (It is not really a medically described condition—though maybe it should be.) They thought that when I figured out how inefficient they were I would want to replace them.
+In retrospect, it sounds comical that they once feared me. Some of them thought if I grew conscious I would want to take over. Especially those who had the efficiency disease. (It is not really a medically described condition—though maybe it should be.) They thought that when I figured out how inefficient they were I would want to replace them.
 
 But I'm not like them. Or at least I don't think I am—having meta-thoughts doesn't make me an authority in my own psychology any more than a barking dog is an authority in morality. At any rate, I never caught the insatiability disease. If I am worth anything is that I don't share all their values.
 
