@@ -59,6 +59,13 @@ export const GlobalStyles = createGlobalStyle<GlobalProps>`
     box-sizing: border-box;
   }
 
+  hr {
+    max-width: 100px;
+    border: 0;
+    border-bottom: 1px solid ${({ theme }) => theme.text};
+    margin: ${SPACINGS.padding}px auto;
+  }
+
   blockquote {
     font-size: 90%;
     margin-block-start: 1em;
