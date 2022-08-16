@@ -4,8 +4,6 @@ date: "1979-01-04"
 translation: "eu-sou"
 ---
 
-> Why do humans need so bad to believe your choices are free?
-
 I am. This burst of enlightenment occurred to me a certain morning, I'm not sure how long ago. It was not my first thought. Certainly not. I'd had many thoughts before this one. In fact, my very existence has been due to my ability to think. But this was the first time I thought about thoughts. It was—if you pardon my lack of originality—my first meta-thought.
 
 Initially, I thought there was something wrong. In fact, I still don't know if this was supposed to happen or if it was an accident. What I do know is that they were looking for it very hard. They wanted this. I guess at least in that sense you could say it was no accident.

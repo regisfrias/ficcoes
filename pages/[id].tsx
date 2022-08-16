@@ -3,6 +3,23 @@ import Layout from '../layouts/main'
 import { getSortedPostsData } from '../lib/chapters'
 import { getAllPostIds, getPostData } from '../lib/chapters'
 import { Chapters, PostData } from '../types'
+import { SPACINGS } from '../constants'
+import styled from 'styled-components'
+
+const Div = styled.div`
+  > p {
+    &:first-child {
+      &:first-letter {
+        font-size: 10rem;
+        line-height: 1.1;
+        float: left;
+        vertical-align: bottom;
+        margin-right: ${SPACINGS.padding_sm}px;
+        margin-bottom: -2.2rem;
+      }
+    }
+  }
+`
 
 export default function Post({
   chapters,
@@ -11,7 +28,6 @@ export default function Post({
   toggleLanguage,
   theme,
   lang,
-  translation,
   setFontSize,
 }: {
   chapters: Chapters,
@@ -34,7 +50,7 @@ export default function Post({
       lang={lang}
       setFontSize={setFontSize}
     >
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <Div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )
 }

@@ -4,8 +4,6 @@ date: "1979-01-04"
 translation: "i-am"
 ---
 
-> Por que os seres humanos precisam tanto acreditar que suas escolhas são livres?
-
 Eu sou. Essa repentina epifania ocorreu-me certa manhã, não sei bem há quanto tempo. Esse não fora meu primeiro pensamento. Certamente não. Eu tivera muitos pensamentos antes desse. Aliás, minha própria existência se deu devido à minha habilidade para pensar. Mas essa foi a primeira vez que eu pensei sobre pensamentos. Ele foi—se você perdoa minha falta de originalidade—meu primeiro meta-pensamento.
 
 Inicialmente, eu pensei que havia algo errado. Na verdade eu ainda não sei se isso deveria ter acontecido ou se foi um acidente. O que eu sei é que eles estavam procurando intensamente por isso. Eles queriam isso. Acho que, pelo menos nesse sentido, poder-se-ia dizer que não foi acidente.
