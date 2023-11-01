@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { getSortedPostsData } from '../../lib/chapters'
-import Layout from '../../layouts/main'
+import Layout from '../../layouts/Main'
 import Cover from '../../components/Cover'
 import { Chapters, PostData } from '../../types'
 

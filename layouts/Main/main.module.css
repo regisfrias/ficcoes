@@ -1,0 +1,16 @@
+.wrapper {
+  margin: auto;
+  max-width: calc(100% - var(--padding_sm) * 2);
+  padding-bottom: calc(var(--padding_sm) * 4);
+}
+
+.title {
+  text-align: center;
+  margin: calc(var(--padding) * 2) 0;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    max-width: calc(var(--breakpoint_sm) - var(--padding_sm) * 2);
+  }
+}

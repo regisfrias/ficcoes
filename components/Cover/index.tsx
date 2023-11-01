@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import styles from './cover.module.css'
-import styled from 'styled-components'
 
 export default function Cover({lang}: {lang: string}) {
   return(

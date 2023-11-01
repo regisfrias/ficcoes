@@ -1,5 +1,5 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
-import Layout from '../layouts/main'
+import Layout from '../layouts/Main'
 import { getSortedPostsData } from '../lib/chapters'
 import { getAllPostIds, getPostData } from '../lib/chapters'
 import { Chapters, PostData } from '../types'
