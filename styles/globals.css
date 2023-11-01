@@ -1,5 +1,91 @@
 :root {
+  --background: var(--black);
+  --link: var(--beige);
+  --text: var(--white);
+  --shadow: rgba(0, 0, 0, 0.4);
+
+  --white: #e9e3d6;
+  --sepia: #683d11;
+  --black: #262520;
+  --beige: #baa48e;
+
   --padding: 40px;
   --padding_sm: 20px;
   --breakpoint_sm: 600px;
+
+  --speed_fast: 0.25s;
+  --button_sm: 20px;
+  --button_lg: 40px;
+  --border_thick: 2px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;;
+  line-height: 1.6;
+}
+
+body {
+  --font_size: 18px;
+  color: var(--text);
+  font-size: var(--font_size);
+  background-color: var(--background);
+  transition: background-color var(--speed_fast), color var(--speed_fast);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+a {
+  color: var(--beige);
+}
+
+button {
+  color: var(--white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  max-width: 100px;
+  border: 0;
+  border-bottom: 1px solid var(--white);
+  margin: var(--padding) auto;
+}
+
+blockquote {
+  font-size: 90%;
+  margin: 1em 3em;
+}
+
+.large {
+  font-size: 1rem;
+}
+.small {
+  font-size: 0.8rem;
+}
+
+.light {
+  --background: var(--white);
+  --link: var(--sepia);
+  --text: var(--black);
+  --shadow: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: var(--white);
+    --link: var(--sepia);
+    --text: var(--black);
+    --shadow: rgba(0, 0, 0, 0.2);
+  }
 }

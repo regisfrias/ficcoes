@@ -2,8 +2,6 @@ import '../styles/globals.css'
 import { useState, useEffect } from 'react'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
-import { ThemeProvider } from "styled-components"
-import { lightTheme, darkTheme, GlobalStyles } from "../components/ThemeConfig"
 
 function App({ Component, pageProps }: AppProps) {
   const [isMounted, setIsMounted] = useState(false)
@@ -16,6 +14,19 @@ function App({ Component, pageProps }: AppProps) {
     setIsMounted(true)
     setTheme(matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
   }, [])
+
+  useEffect( () => {
+    if (theme === 'dark') {
+      document.querySelector('body')?.classList.remove('light')
+    } else {
+      document.querySelector('body')?.classList.remove('dark')
+    }
+    document.querySelector('body')?.classList.add(theme)
+  }, [theme])
+
+  useEffect( () => {
+    document.querySelector('body')?.style.setProperty('--font_size', `${fontSize}px`)
+  }, [fontSize])
 
   const toggleTheme = () => {
     theme == 'light' ? setTheme('dark') : setTheme('light')
@@ -31,18 +42,18 @@ function App({ Component, pageProps }: AppProps) {
   }
 
   return(
-    <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
-      <GlobalStyles fontSize={fontSize} />
+    <>
       {isMounted &&
         <Component
           {...pageProps}
           toggleTheme={toggleTheme}
           toggleLanguage={toggleLanguage}
           lang={lang}
-          theme={theme} setFontSize={updateFontSize}
+          theme={theme}
+          setFontSize={updateFontSize}
         />
       }
-    </ThemeProvider>
+    </>
   )
 }
 

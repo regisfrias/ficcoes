@@ -35,7 +35,7 @@ export default function Layout({
         lang={lang}
         setFontSize={setFontSize}
       />
-      <div className={styles.wrapper}>
+      <div className={`${styles.wrapper} ${theme}`}>
         <h1 className={styles.title}>{title}</h1>
         {children}
       </div>
