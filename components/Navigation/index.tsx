@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
-import { Chapters } from '../types'
-import { DIMENSIONS, SPEEDS, COLORS, SPACINGS, BREAKPOINTS } from '../constants'
+import { Chapters } from '../../types'
+import { DIMENSIONS, SPEEDS, COLORS, SPACINGS, BREAKPOINTS } from '../../constants'
 
 const Wrapper = styled.div`
   left: 0;

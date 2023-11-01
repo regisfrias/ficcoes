@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import styled from 'styled-components'
-import Navigation from '../components/Navigation'
+import Navigation from '../components/Navigation/'
 import { Chapters } from '../types'
 import { BREAKPOINTS, SPACINGS } from '../constants'
 

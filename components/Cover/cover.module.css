@@ -1,0 +1,9 @@
+.wrapper {
+  text-align: center;
+}
+
+.paragraph {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 10vh;
+}
