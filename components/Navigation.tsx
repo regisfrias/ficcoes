@@ -311,9 +311,9 @@ export default function Navigation({
             <h1>{lang === 'pt' ? 'Índice' : 'Index'}</h1>
           </header>
           <ul>
-            <li className={`ficcoes ${chapterId === undefined ? 'current' : ''}`}><Link href={path}><a onClick={() => toggleChapters()}>{lang === 'pt' ? 'Capa' : 'Cover'}</a></Link></li>
+            <li className={`ficcoes ${chapterId === undefined ? 'current' : ''}`}><Link href={path} onClick={() => toggleChapters()}>{lang === 'pt' ? 'Capa' : 'Cover'}</Link></li>
             {chapters ? chapters.map( (chapter: {id: string, title: string, date: string}) =>
-              <li key={chapter.id} className={`${chapter.id} ${chapterId === chapter.id ? 'current' : ''}`}><Link href={`${path + chapter.id}`}><a onClick={() => toggleChapters()}>{chapter.title}</a></Link></li>
+              <li key={chapter.id} className={`${chapter.id} ${chapterId === chapter.id ? 'current' : ''}`}><Link href={`${path + chapter.id}`} onClick={() => toggleChapters()}>{chapter.title}</Link></li>
               ) : null}
           </ul>
         </article>
