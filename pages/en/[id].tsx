@@ -1,25 +1,9 @@
 import { GetStaticProps, GetStaticPaths } from 'next'
 import Layout from '../../layouts/Main'
 import { getSortedPostsData } from '../../lib/chapters'
-import styled from 'styled-components'
 import { getAllPostIds, getPostData } from '../../lib/chapters'
 import { Chapters, PostData } from '../../types'
-import { SPACINGS } from '../../constants'
-
-const Div = styled.div`
-  > p {
-    &:first-child {
-      &:first-letter {
-        font-size: 10rem;
-        line-height: 1.1;
-        float: left;
-        vertical-align: bottom;
-        margin-right: ${SPACINGS.padding_sm}px;
-        margin-bottom: -2.2rem;
-      }
-    }
-  }
-`
+import styles from '../page.module.css'
 
 export default function Post({
   chapters,
@@ -49,7 +33,7 @@ export default function Post({
       translation={postData.translation}
       setFontSize={setFontSize}
     >
-      <Div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <div className={styles.html} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   )
 }
