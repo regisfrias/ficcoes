@@ -1,0 +1,8 @@
+.html > p:first-child:first-letter {
+  font-size: 10rem;
+  line-height: 1.1;
+  float: left;
+  vertical-align: bottom;
+  margin-right: var(--padding_sm);
+  margin-bottom: -2.2rem;
+}
