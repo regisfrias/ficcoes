@@ -3,6 +3,9 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
+import { h } from 'hastscript'
+import { visit } from 'unist-util-visit'
+import { v4 as uuidv4 } from 'uuid'
 
 const postsDirectory = (dir: string) => path.join(process.cwd(), dir)
 
@@ -56,6 +59,20 @@ function getReadingTime(text: string) {
   return Math.ceil(words / wpm);
 }
 
+function addParagraphId() {
+  return function (tree: import('mdast').Root): undefined {
+    visit(tree, function (node, a) {
+      if (
+        node.type === 'paragraph' ||
+        node.type === 'blockquote'
+      ) {
+        const data = node.data || (node.data = {})
+        data.hProperties = { id: uuidv4() }
+      }
+    })
+  }
+}
+
 export async function getPostData(id: string, dir: string) {
   const fullPath = path.join(postsDirectory(dir), `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
@@ -67,7 +84,9 @@ export async function getPostData(id: string, dir: string) {
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
+    .use(addParagraphId)
     .process(matterResult.content)
+
   const contentHtml = processedContent.toString()
 
   // Combine the data with the id and contentHtml
