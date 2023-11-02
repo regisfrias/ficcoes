@@ -31,9 +31,18 @@ export default function Navigation({
   const linkTo = (route: string | null) => {
     open(false)
     if (route) {
+      localStorage.setItem('currentChapter', route)
       router.push(route)
     }
   }
+
+  useEffect(() => {
+    const currentChapter = localStorage.getItem('currentChapter')
+    if (currentChapter && router.asPath === '/') {
+      router.push(currentChapter)
+    }
+    localStorage.setItem('currentChapter', router.asPath)
+  }, [router.asPath])
 
   const dispatchTheme = () => {
     toggleTheme()
